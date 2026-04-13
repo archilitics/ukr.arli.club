@@ -1,0 +1,610 @@
+[
+  {
+    "id": "buty",
+    "infinitive": "бути",
+    "transliteration": "buty",
+    "english": "to be",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "є",
+        "ty": "є",
+        "vin": "є",
+        "vona": "є",
+        "my": "є",
+        "vy": "є",
+        "vony": "є"
+      },
+      "past": {
+        "ya_masc": "був",
+        "ya_fem": "була",
+        "ty_masc": "був",
+        "ty_fem": "була",
+        "vin": "був",
+        "vona": "була",
+        "my": "були",
+        "vy": "були",
+        "vony": "були"
+      },
+      "future": {
+        "ya": "буду",
+        "ty": "будеш",
+        "vin": "буде",
+        "vona": "буде",
+        "my": "будемо",
+        "vy": "будете",
+        "vony": "будуть"
+      }
+    }
+  },
+  {
+    "id": "khotity",
+    "infinitive": "хотіти",
+    "transliteration": "khotity",
+    "english": "to want",
+    "category": "feeling",
+    "conjugations": {
+      "present": {
+        "ya": "хочу",
+        "ty": "хочеш",
+        "vin": "хоче",
+        "vona": "хоче",
+        "my": "хочемо",
+        "vy": "хочете",
+        "vony": "хочуть"
+      },
+      "past": {
+        "ya_masc": "хотів",
+        "ya_fem": "хотіла",
+        "ty_masc": "хотів",
+        "ty_fem": "хотіла",
+        "vin": "хотів",
+        "vona": "хотіла",
+        "my": "хотіли",
+        "vy": "хотіли",
+        "vony": "хотіли"
+      },
+      "future": {
+        "ya": "хотітиму",
+        "ty": "хотітимеш",
+        "vin": "хотітиме",
+        "vona": "хотітиме",
+        "my": "хотітимемо",
+        "vy": "хотітимете",
+        "vony": "хотітимуть"
+      }
+    }
+  },
+  {
+    "id": "yisty",
+    "infinitive": "їсти",
+    "transliteration": "yisty",
+    "english": "to eat",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "їм",
+        "ty": "їси",
+        "vin": "їсть",
+        "vona": "їсть",
+        "my": "їмо",
+        "vy": "їсте",
+        "vony": "їдять"
+      },
+      "past": {
+        "ya_masc": "їв",
+        "ya_fem": "їла",
+        "ty_masc": "їв",
+        "ty_fem": "їла",
+        "vin": "їв",
+        "vona": "їла",
+        "my": "їли",
+        "vy": "їли",
+        "vony": "їли"
+      },
+      "future": {
+        "ya": "їстиму",
+        "ty": "їстимеш",
+        "vin": "їстиме",
+        "vona": "їстиме",
+        "my": "їстимемо",
+        "vy": "їстимете",
+        "vony": "їстимуть"
+      }
+    }
+  },
+  {
+    "id": "pyty",
+    "infinitive": "пити",
+    "transliteration": "pyty",
+    "english": "to drink",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "п'ю",
+        "ty": "п'єш",
+        "vin": "п'є",
+        "vona": "п'є",
+        "my": "п'ємо",
+        "vy": "п'єте",
+        "vony": "п'ють"
+      },
+      "past": {
+        "ya_masc": "пив",
+        "ya_fem": "пила",
+        "ty_masc": "пив",
+        "ty_fem": "пила",
+        "vin": "пив",
+        "vona": "пила",
+        "my": "пили",
+        "vy": "пили",
+        "vony": "пили"
+      },
+      "future": {
+        "ya": "питиму",
+        "ty": "питимеш",
+        "vin": "питиме",
+        "vona": "питиме",
+        "my": "питимемо",
+        "vy": "питимете",
+        "vony": "питимуть"
+      }
+    }
+  },
+  {
+    "id": "robyty",
+    "infinitive": "робити",
+    "transliteration": "robyty",
+    "english": "to do",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "роблю",
+        "ty": "робиш",
+        "vin": "робить",
+        "vona": "робить",
+        "my": "робимо",
+        "vy": "робите",
+        "vony": "роблять"
+      },
+      "past": {
+        "ya_masc": "робив",
+        "ya_fem": "робила",
+        "ty_masc": "робив",
+        "ty_fem": "робила",
+        "vin": "робив",
+        "vona": "робила",
+        "my": "робили",
+        "vy": "робили",
+        "vony": "робили"
+      },
+      "future": {
+        "ya": "робитиму",
+        "ty": "робитимеш",
+        "vin": "робитиме",
+        "vona": "робитиме",
+        "my": "робитимемо",
+        "vy": "робитимете",
+        "vony": "робитимуть"
+      }
+    }
+  },
+  {
+    "id": "hovoryty",
+    "infinitive": "говорити",
+    "transliteration": "hovoryty",
+    "english": "to speak",
+    "category": "communication",
+    "conjugations": {
+      "present": {
+        "ya": "говорю",
+        "ty": "говориш",
+        "vin": "говорить",
+        "vona": "говорить",
+        "my": "говоримо",
+        "vy": "говорите",
+        "vony": "говорять"
+      },
+      "past": {
+        "ya_masc": "говорив",
+        "ya_fem": "говорила",
+        "ty_masc": "говорив",
+        "ty_fem": "говорила",
+        "vin": "говорив",
+        "vona": "говорила",
+        "my": "говорили",
+        "vy": "говорили",
+        "vony": "говорили"
+      },
+      "future": {
+        "ya": "говоритиму",
+        "ty": "говоритимеш",
+        "vin": "говоритиме",
+        "vona": "говоритиме",
+        "my": "говоритимемо",
+        "vy": "говоритимете",
+        "vony": "говоритимуть"
+      }
+    }
+  },
+  {
+    "id": "yty",
+    "infinitive": "йти",
+    "transliteration": "yty",
+    "english": "to go",
+    "category": "movement",
+    "conjugations": {
+      "present": {
+        "ya": "іду",
+        "ty": "ідеш",
+        "vin": "іде",
+        "vona": "іде",
+        "my": "ідемо",
+        "vy": "ідете",
+        "vony": "ідуть"
+      },
+      "past": {
+        "ya_masc": "ішов",
+        "ya_fem": "ішла",
+        "ty_masc": "ішов",
+        "ty_fem": "ішла",
+        "vin": "ішов",
+        "vona": "ішла",
+        "my": "ішли",
+        "vy": "ішли",
+        "vony": "ішли"
+      },
+      "future": {
+        "ya": "піду",
+        "ty": "підеш",
+        "vin": "піде",
+        "vona": "піде",
+        "my": "підемо",
+        "vy": "підете",
+        "vony": "підуть"
+      }
+    }
+  },
+  {
+    "id": "bachyty",
+    "infinitive": "бачити",
+    "transliteration": "bachyty",
+    "english": "to see",
+    "category": "perception",
+    "conjugations": {
+      "present": {
+        "ya": "бачу",
+        "ty": "бачиш",
+        "vin": "бачить",
+        "vona": "бачить",
+        "my": "бачимо",
+        "vy": "бачите",
+        "vony": "бачать"
+      },
+      "past": {
+        "ya_masc": "бачив",
+        "ya_fem": "бачила",
+        "ty_masc": "бачив",
+        "ty_fem": "бачила",
+        "vin": "бачив",
+        "vona": "бачила",
+        "my": "бачили",
+        "vy": "бачили",
+        "vony": "бачили"
+      },
+      "future": {
+        "ya": "бачитиму",
+        "ty": "бачитимеш",
+        "vin": "бачитиме",
+        "vona": "бачитиме",
+        "my": "бачитимемо",
+        "vy": "бачитимете",
+        "vony": "бачитимуть"
+      }
+    }
+  },
+  {
+    "id": "znaty",
+    "infinitive": "знати",
+    "transliteration": "znaty",
+    "english": "to know",
+    "category": "perception",
+    "conjugations": {
+      "present": {
+        "ya": "знаю",
+        "ty": "знаєш",
+        "vin": "знає",
+        "vona": "знає",
+        "my": "знаємо",
+        "vy": "знаєте",
+        "vony": "знають"
+      },
+      "past": {
+        "ya_masc": "знав",
+        "ya_fem": "знала",
+        "ty_masc": "знав",
+        "ty_fem": "знала",
+        "vin": "знав",
+        "vona": "знала",
+        "my": "знали",
+        "vy": "знали",
+        "vony": "знали"
+      },
+      "future": {
+        "ya": "знатиму",
+        "ty": "знатимеш",
+        "vin": "знатиме",
+        "vona": "знатиме",
+        "my": "знатимемо",
+        "vy": "знатимете",
+        "vony": "знатимуть"
+      }
+    }
+  },
+  {
+    "id": "maty",
+    "infinitive": "мати",
+    "transliteration": "maty",
+    "english": "to have",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "маю",
+        "ty": "маєш",
+        "vin": "має",
+        "vona": "має",
+        "my": "маємо",
+        "vy": "маєте",
+        "vony": "мають"
+      },
+      "past": {
+        "ya_masc": "мав",
+        "ya_fem": "мала",
+        "ty_masc": "мав",
+        "ty_fem": "мала",
+        "vin": "мав",
+        "vona": "мала",
+        "my": "мали",
+        "vy": "мали",
+        "vony": "мали"
+      },
+      "future": {
+        "ya": "матиму",
+        "ty": "матимеш",
+        "vin": "матиме",
+        "vona": "матиме",
+        "my": "матимемо",
+        "vy": "матимете",
+        "vony": "матимуть"
+      }
+    }
+  },
+  {
+    "id": "zhyty",
+    "infinitive": "жити",
+    "transliteration": "zhyty",
+    "english": "to live",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "живу",
+        "ty": "живеш",
+        "vin": "живе",
+        "vona": "живе",
+        "my": "живемо",
+        "vy": "живете",
+        "vony": "живуть"
+      },
+      "past": {
+        "ya_masc": "жив",
+        "ya_fem": "жила",
+        "ty_masc": "жив",
+        "ty_fem": "жила",
+        "vin": "жив",
+        "vona": "жила",
+        "my": "жили",
+        "vy": "жили",
+        "vony": "жили"
+      },
+      "future": {
+        "ya": "житиму",
+        "ty": "житимеш",
+        "vin": "житиме",
+        "vona": "житиме",
+        "my": "житимемо",
+        "vy": "житимете",
+        "vony": "житимуть"
+      }
+    }
+  },
+  {
+    "id": "pratsyuvaty",
+    "infinitive": "працювати",
+    "transliteration": "pratsyuvaty",
+    "english": "to work",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "працюю",
+        "ty": "працюєш",
+        "vin": "працює",
+        "vona": "працює",
+        "my": "працюємо",
+        "vy": "працюєте",
+        "vony": "працюють"
+      },
+      "past": {
+        "ya_masc": "працював",
+        "ya_fem": "працювала",
+        "ty_masc": "працював",
+        "ty_fem": "працювала",
+        "vin": "працював",
+        "vona": "працювала",
+        "my": "працювали",
+        "vy": "працювали",
+        "vony": "працювали"
+      },
+      "future": {
+        "ya": "працюватиму",
+        "ty": "працюватимеш",
+        "vin": "працюватиме",
+        "vona": "працюватиме",
+        "my": "працюватимемо",
+        "vy": "працюватимете",
+        "vony": "працюватимуть"
+      }
+    }
+  },
+  {
+    "id": "chytaty",
+    "infinitive": "читати",
+    "transliteration": "chytaty",
+    "english": "to read",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "читаю",
+        "ty": "читаєш",
+        "vin": "читає",
+        "vona": "читає",
+        "my": "читаємо",
+        "vy": "читаєте",
+        "vony": "читають"
+      },
+      "past": {
+        "ya_masc": "читав",
+        "ya_fem": "читала",
+        "ty_masc": "читав",
+        "ty_fem": "читала",
+        "vin": "читав",
+        "vona": "читала",
+        "my": "читали",
+        "vy": "читали",
+        "vony": "читали"
+      },
+      "future": {
+        "ya": "читатиму",
+        "ty": "читатимеш",
+        "vin": "читатиме",
+        "vona": "читатиме",
+        "my": "читатимемо",
+        "vy": "читатимете",
+        "vony": "читатимуть"
+      }
+    }
+  },
+  {
+    "id": "pysaty",
+    "infinitive": "писати",
+    "transliteration": "pysaty",
+    "english": "to write",
+    "category": "communication",
+    "conjugations": {
+      "present": {
+        "ya": "пишу",
+        "ty": "пишеш",
+        "vin": "пише",
+        "vona": "пише",
+        "my": "пишемо",
+        "vy": "пишете",
+        "vony": "пишуть"
+      },
+      "past": {
+        "ya_masc": "писав",
+        "ya_fem": "писала",
+        "ty_masc": "писав",
+        "ty_fem": "писала",
+        "vin": "писав",
+        "vona": "писала",
+        "my": "писали",
+        "vy": "писали",
+        "vony": "писали"
+      },
+      "future": {
+        "ya": "писатиму",
+        "ty": "писатимеш",
+        "vin": "писатиме",
+        "vona": "писатиме",
+        "my": "писатимемо",
+        "vy": "писатимете",
+        "vony": "писатимуть"
+      }
+    }
+  },
+  {
+    "id": "spaty",
+    "infinitive": "спати",
+    "transliteration": "spaty",
+    "english": "to sleep",
+    "category": "everyday",
+    "conjugations": {
+      "present": {
+        "ya": "сплю",
+        "ty": "спиш",
+        "vin": "спить",
+        "vona": "спить",
+        "my": "спимо",
+        "vy": "спите",
+        "vony": "сплять"
+      },
+      "past": {
+        "ya_masc": "спав",
+        "ya_fem": "спала",
+        "ty_masc": "спав",
+        "ty_fem": "спала",
+        "vin": "спав",
+        "vona": "спала",
+        "my": "спали",
+        "vy": "спали",
+        "vony": "спали"
+      },
+      "future": {
+        "ya": "спатиму",
+        "ty": "спатимеш",
+        "vin": "спатиме",
+        "vona": "спатиме",
+        "my": "спатимемо",
+        "vy": "спатимете",
+        "vony": "спатимуть"
+      }
+    }
+  },
+  {
+    "id": "lyubyty",
+    "infinitive": "любити",
+    "transliteration": "lyubyty",
+    "english": "to love",
+    "category": "feeling",
+    "conjugations": {
+      "present": {
+        "ya": "люблю",
+        "ty": "любиш",
+        "vin": "любить",
+        "vona": "любить",
+        "my": "любимо",
+        "vy": "любите",
+        "vony": "люблять"
+      },
+      "past": {
+        "ya_masc": "любив",
+        "ya_fem": "любила",
+        "ty_masc": "любив",
+        "ty_fem": "любила",
+        "vin": "любив",
+        "vona": "любила",
+        "my": "любили",
+        "vy": "любили",
+        "vony": "любили"
+      },
+      "future": {
+        "ya": "любитиму",
+        "ty": "любитимеш",
+        "vin": "любитиме",
+        "vona": "любитиме",
+        "my": "любитимемо",
+        "vy": "любитимете",
+        "vony": "любитимуть"
+      }
+    }
+  }
+]

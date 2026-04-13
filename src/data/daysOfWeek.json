@@ -1,0 +1,9 @@
+[
+  { "ukrainian": "понеділок", "transliteration": "ponedilok", "english": "Monday" },
+  { "ukrainian": "вівторок", "transliteration": "vivtorok", "english": "Tuesday" },
+  { "ukrainian": "середа", "transliteration": "sereda", "english": "Wednesday" },
+  { "ukrainian": "четвер", "transliteration": "chetver", "english": "Thursday" },
+  { "ukrainian": "п'ятниця", "transliteration": "pyatnytsia", "english": "Friday" },
+  { "ukrainian": "субота", "transliteration": "subota", "english": "Saturday" },
+  { "ukrainian": "неділя", "transliteration": "nedilya", "english": "Sunday" }
+]

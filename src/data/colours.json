@@ -1,0 +1,14 @@
+[
+  { "ukrainian": "червоний", "transliteration": "chervonyi", "english": "red" },
+  { "ukrainian": "синій", "transliteration": "syniy", "english": "blue" },
+  { "ukrainian": "зелений", "transliteration": "zelenyi", "english": "green" },
+  { "ukrainian": "жовтий", "transliteration": "zhovtyi", "english": "yellow" },
+  { "ukrainian": "білий", "transliteration": "bilyi", "english": "white" },
+  { "ukrainian": "чорний", "transliteration": "chornyi", "english": "black" },
+  { "ukrainian": "сірий", "transliteration": "siryi", "english": "grey" },
+  { "ukrainian": "коричневий", "transliteration": "korychnievyi", "english": "brown" },
+  { "ukrainian": "рожевий", "transliteration": "rozhevyi", "english": "pink" },
+  { "ukrainian": "помаранчевий", "transliteration": "pomaranchevyi", "english": "orange" },
+  { "ukrainian": "фіолетовий", "transliteration": "fioletovyi", "english": "purple" },
+  { "ukrainian": "блакитний", "transliteration": "blakytnyi", "english": "light blue" }
+]

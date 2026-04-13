@@ -1,0 +1,17 @@
+[
+  { "ukrainian": "Привіт", "transliteration": "Pryvit", "english": "Hello" },
+  { "ukrainian": "Добрий день", "transliteration": "Dobryi den", "english": "Good day" },
+  { "ukrainian": "Добрий ранок", "transliteration": "Dobryi ranok", "english": "Good morning" },
+  { "ukrainian": "Добрий вечір", "transliteration": "Dobryi vechir", "english": "Good evening" },
+  { "ukrainian": "До побачення", "transliteration": "Do pobachennya", "english": "Goodbye" },
+  { "ukrainian": "Дякую", "transliteration": "Dyakuyu", "english": "Thank you" },
+  { "ukrainian": "Будь ласка", "transliteration": "Bud laska", "english": "Please / You're welcome" },
+  { "ukrainian": "Так", "transliteration": "Tak", "english": "Yes" },
+  { "ukrainian": "Ні", "transliteration": "Ni", "english": "No" },
+  { "ukrainian": "Вибачте", "transliteration": "Vybachte", "english": "Excuse me / Sorry" },
+  { "ukrainian": "Як справи?", "transliteration": "Yak spravy?", "english": "How are you?" },
+  { "ukrainian": "Добре", "transliteration": "Dobre", "english": "Good / Fine" },
+  { "ukrainian": "Я не розумію", "transliteration": "Ya ne rozumiyu", "english": "I don't understand" },
+  { "ukrainian": "Скільки коштує?", "transliteration": "Skilky koshtuye?", "english": "How much does it cost?" },
+  { "ukrainian": "Допоможіть, будь ласка", "transliteration": "Dopomozhit, bud laska", "english": "Help me, please" }
+]
