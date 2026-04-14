@@ -1,0 +1,51 @@
+[
+  { "ukrainian": "мама", "transliteration": "mama", "english": "mom" },
+  { "ukrainian": "тато", "transliteration": "tato", "english": "dad" },
+  { "ukrainian": "мати", "transliteration": "mati", "english": "mother" },
+  { "ukrainian": "батько", "transliteration": "batko", "english": "father" },
+  { "ukrainian": "батьки", "transliteration": "batki", "english": "parents" },
+  { "ukrainian": "брат", "transliteration": "brat", "english": "brother" },
+  { "ukrainian": "сестра", "transliteration": "sestra", "english": "sister" },
+  { "ukrainian": "син", "transliteration": "sin", "english": "son" },
+  { "ukrainian": "донька", "transliteration": "donka", "english": "daughter" },
+  { "ukrainian": "дитина", "transliteration": "ditina", "english": "child" },
+  {
+    "ukrainian": "дідусь",
+    "transliteration": "didus",
+    "english": "grandfather"
+  },
+  {
+    "ukrainian": "бабуся",
+    "transliteration": "babusja",
+    "english": "grandmother"
+  },
+  { "ukrainian": "внук", "transliteration": "vnuk", "english": "grandson" },
+  {
+    "ukrainian": "внучка",
+    "transliteration": "vnučka",
+    "english": "granddaughter"
+  },
+  {
+    "ukrainian": "чоловік",
+    "transliteration": "čolovik",
+    "english": "husband / man"
+  },
+  { "ukrainian": "дружина", "transliteration": "družina", "english": "wife" },
+  { "ukrainian": "друг", "transliteration": "druh", "english": "friend (m)" },
+  {
+    "ukrainian": "подруга",
+    "transliteration": "podruha",
+    "english": "friend (f)"
+  },
+  {
+    "ukrainian": "сусід",
+    "transliteration": "susid",
+    "english": "neighbour (m)"
+  },
+  {
+    "ukrainian": "сусідка",
+    "transliteration": "susidka",
+    "english": "neighbour (f)"
+  },
+  { "ukrainian": "родина", "transliteration": "rodina", "english": "family" }
+]

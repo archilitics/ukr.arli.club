@@ -1,0 +1,75 @@
+[
+  { "ukrainian": "кава", "transliteration": "kava", "english": "coffee" },
+  { "ukrainian": "чай", "transliteration": "čaj", "english": "tea" },
+  { "ukrainian": "вода", "transliteration": "voda", "english": "water" },
+  { "ukrainian": "сік", "transliteration": "sik", "english": "juice" },
+  { "ukrainian": "молоко", "transliteration": "moloko", "english": "milk" },
+  { "ukrainian": "пиво", "transliteration": "pivo", "english": "beer" },
+  { "ukrainian": "вино", "transliteration": "vino", "english": "wine" },
+  { "ukrainian": "хліб", "transliteration": "hlib", "english": "bread" },
+  { "ukrainian": "масло", "transliteration": "maslo", "english": "butter" },
+  { "ukrainian": "сир", "transliteration": "sir", "english": "cheese" },
+  { "ukrainian": "яйце", "transliteration": "jajce", "english": "egg" },
+  { "ukrainian": "йогурт", "transliteration": "johurt", "english": "yoghurt" },
+  { "ukrainian": "каша", "transliteration": "kaša", "english": "porridge" },
+  { "ukrainian": "м'ясо", "transliteration": "mjaso", "english": "meat" },
+  { "ukrainian": "курка", "transliteration": "kurka", "english": "chicken" },
+  { "ukrainian": "риба", "transliteration": "riba", "english": "fish" },
+  { "ukrainian": "суп", "transliteration": "sup", "english": "soup" },
+  { "ukrainian": "салат", "transliteration": "salat", "english": "salad" },
+  {
+    "ukrainian": "картопля",
+    "transliteration": "kartoplja",
+    "english": "potato"
+  },
+  { "ukrainian": "рис", "transliteration": "ris", "english": "rice" },
+  {
+    "ukrainian": "макарони",
+    "transliteration": "makaroni",
+    "english": "pasta"
+  },
+  { "ukrainian": "овочі", "transliteration": "ovoči", "english": "vegetables" },
+  { "ukrainian": "фрукти", "transliteration": "frukti", "english": "fruits" },
+  { "ukrainian": "яблуко", "transliteration": "jabluko", "english": "apple" },
+  { "ukrainian": "банан", "transliteration": "banan", "english": "banana" },
+  {
+    "ukrainian": "апельсин",
+    "transliteration": "apelsin",
+    "english": "orange"
+  },
+  { "ukrainian": "помідор", "transliteration": "pomidor", "english": "tomato" },
+  { "ukrainian": "огірок", "transliteration": "ohirok", "english": "cucumber" },
+  { "ukrainian": "сіль", "transliteration": "sil", "english": "salt" },
+  { "ukrainian": "перець", "transliteration": "perec", "english": "pepper" },
+  { "ukrainian": "цукор", "transliteration": "cukor", "english": "sugar" },
+  { "ukrainian": "торт", "transliteration": "tort", "english": "cake" },
+  {
+    "ukrainian": "морозиво",
+    "transliteration": "morozivo",
+    "english": "ice cream"
+  },
+  {
+    "ukrainian": "шоколад",
+    "transliteration": "šokolad",
+    "english": "chocolate"
+  },
+  { "ukrainian": "борщ", "transliteration": "boršč", "english": "borscht" },
+  {
+    "ukrainian": "вареники",
+    "transliteration": "vareniki",
+    "english": "varenyky (dumplings)"
+  },
+  {
+    "ukrainian": "сніданок",
+    "transliteration": "snidanok",
+    "english": "breakfast"
+  },
+  { "ukrainian": "обід", "transliteration": "obid", "english": "lunch" },
+  { "ukrainian": "вечеря", "transliteration": "večerja", "english": "dinner" },
+  { "ukrainian": "меню", "transliteration": "menju", "english": "menu" },
+  {
+    "ukrainian": "рахунок",
+    "transliteration": "rahunok",
+    "english": "bill / check"
+  }
+]

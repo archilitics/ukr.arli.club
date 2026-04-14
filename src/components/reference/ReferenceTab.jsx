@@ -11,12 +11,28 @@ import colours from "../../data/colours.json";
 import daysOfWeek from "../../data/daysOfWeek.json";
 import commonPhrases from "../../data/commonPhrases.json";
 import questionWords from "../../data/questionWords.json";
+import foodDrink from "../../data/foodDrink.json";
+import family from "../../data/family.json";
+import time from "../../data/time.json";
+import directions from "../../data/directions.json";
+import adjectives from "../../data/adjectives.json";
+import weather from "../../data/weather.json";
+import months from "../../data/months.json";
+import body from "../../data/body.json";
 
 const referenceCategories = [
   { id: "phrases", label: "Common Phrases", data: commonPhrases },
+  { id: "foodDrink", label: "Food & Drink", data: foodDrink },
+  { id: "adjectives", label: "Adjectives", data: adjectives },
+  { id: "directions", label: "Directions & Places", data: directions },
+  { id: "weather", label: "Weather", data: weather },
+  { id: "time", label: "Time", data: time },
+  { id: "days", label: "Days of Week", data: daysOfWeek },
+  { id: "months", label: "Months", data: months },
+  { id: "family", label: "Family", data: family },
+  { id: "body", label: "Body & Health", data: body },
   { id: "numbers", label: "Numbers", data: numbers },
   { id: "colours", label: "Colours", data: colours },
-  { id: "days", label: "Days of Week", data: daysOfWeek },
   { id: "questions", label: "Question Words", data: questionWords },
 ];
 
@@ -46,28 +62,15 @@ const ReferenceTab = () => {
       <Fade in key={selectedCategoryId}>
         <Box
           sx={{
-            display: "flex",
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
             gap: 2,
-            overflowX: "auto",
-            scrollSnapType: "x mandatory",
             pb: 1,
-            "&::-webkit-scrollbar": { display: "none" },
-            scrollbarWidth: "none",
-            flexWrap: "wrap",
           }}
         >
           {activeCategory?.data.map(
             ({ ukrainian, transliteration, english }, index) => (
-              <Card
-                key={index}
-                sx={{
-                  minWidth: 160,
-                  maxWidth: 220,
-                  flex: "0 0 auto",
-                  scrollSnapAlign: "start",
-                }}
-                variant="outlined"
-              >
+              <Card key={index} variant="outlined">
                 <CardContent sx={{ pb: "12px !important" }}>
                   <Box
                     sx={{

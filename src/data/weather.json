@@ -1,0 +1,55 @@
+[
+  { "ukrainian": "погода", "transliteration": "pohoda", "english": "weather" },
+  { "ukrainian": "сонце", "transliteration": "sonce", "english": "sun" },
+  {
+    "ukrainian": "сонячно",
+    "transliteration": "sonjačno",
+    "english": "it's sunny"
+  },
+  { "ukrainian": "хмара", "transliteration": "hmara", "english": "cloud" },
+  {
+    "ukrainian": "хмарно",
+    "transliteration": "hmarno",
+    "english": "it's cloudy"
+  },
+  { "ukrainian": "дощ", "transliteration": "došč", "english": "rain" },
+  {
+    "ukrainian": "йде дощ",
+    "transliteration": "jde došč",
+    "english": "it's raining"
+  },
+  { "ukrainian": "сніг", "transliteration": "snih", "english": "snow" },
+  {
+    "ukrainian": "йде сніг",
+    "transliteration": "jde snih",
+    "english": "it's snowing"
+  },
+  { "ukrainian": "вітер", "transliteration": "viter", "english": "wind" },
+  { "ukrainian": "туман", "transliteration": "tuman", "english": "fog" },
+  {
+    "ukrainian": "гроза",
+    "transliteration": "hroza",
+    "english": "thunderstorm"
+  },
+  { "ukrainian": "тепло", "transliteration": "teplo", "english": "it's warm" },
+  { "ukrainian": "жарко", "transliteration": "žarko", "english": "it's hot" },
+  {
+    "ukrainian": "холодно",
+    "transliteration": "holodno",
+    "english": "it's cold"
+  },
+  {
+    "ukrainian": "прохолодно",
+    "transliteration": "proholodno",
+    "english": "it's cool"
+  },
+  { "ukrainian": "весна", "transliteration": "vesna", "english": "spring" },
+  { "ukrainian": "літо", "transliteration": "lito", "english": "summer" },
+  { "ukrainian": "осінь", "transliteration": "osin", "english": "autumn" },
+  { "ukrainian": "зима", "transliteration": "zima", "english": "winter" },
+  {
+    "ukrainian": "Яка сьогодні погода?",
+    "transliteration": "Jaka sohodni pohoda?",
+    "english": "What's the weather today?"
+  }
+]

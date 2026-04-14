@@ -1,0 +1,366 @@
+[
+  {
+    "id": "i-want-coffee",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "kavu"
+  },
+  {
+    "id": "i-want-tea",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "chaj"
+  },
+  {
+    "id": "i-want-water",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "vodu"
+  },
+  {
+    "id": "i-want-beer",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "pivo"
+  },
+  {
+    "id": "i-want-to-eat",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "jisti"
+  },
+  {
+    "id": "i-want-to-drink",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "pyty"
+  },
+  {
+    "id": "i-want-to-sleep",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "spaty"
+  },
+  {
+    "id": "i-want-to-rest",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "vidpochyty"
+  },
+  {
+    "id": "i-want-to-work",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "pracjuvaty"
+  },
+  {
+    "id": "i-want-this",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": null
+  },
+  {
+    "id": "i-drink-water",
+    "subjectId": "ya",
+    "verbId": "pyty",
+    "tense": "present",
+    "complementId": "vodu"
+  },
+  {
+    "id": "i-drink-coffee",
+    "subjectId": "ya",
+    "verbId": "pyty",
+    "tense": "present",
+    "complementId": "kavu"
+  },
+  {
+    "id": "i-eat-bread",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "hlib"
+  },
+  {
+    "id": "i-eat-pizza",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "pyccu"
+  },
+  {
+    "id": "i-eat-soup",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "sup"
+  },
+  {
+    "id": "i-will-eat-now",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "future",
+    "complementId": "zaraz"
+  },
+  {
+    "id": "i-will-eat-at-home",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "future",
+    "complementId": "vdoma"
+  },
+  {
+    "id": "i-go-home",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "dodomu"
+  },
+  {
+    "id": "i-go-to-work",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "na_robotu"
+  },
+  {
+    "id": "i-go-to-cafe",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_kavjarnyu"
+  },
+  {
+    "id": "i-go-to-store",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_mahazyn"
+  },
+  {
+    "id": "i-go-to-park",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_park"
+  },
+  {
+    "id": "i-will-go-home",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "future",
+    "complementId": "dodomu"
+  },
+  {
+    "id": "i-will-go-to-restaurant",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "future",
+    "complementId": "v_restoran"
+  },
+  {
+    "id": "we-go-to-park",
+    "subjectId": "my",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_park"
+  },
+  {
+    "id": "we-will-go-to-restaurant",
+    "subjectId": "my",
+    "verbId": "yty",
+    "tense": "future",
+    "complementId": "v_restoran"
+  },
+  {
+    "id": "i-live-at-home",
+    "subjectId": "ya",
+    "verbId": "zhyty",
+    "tense": "present",
+    "complementId": "vdoma"
+  },
+  {
+    "id": "i-live-in-town",
+    "subjectId": "ya",
+    "verbId": "meshkaty",
+    "tense": "present",
+    "complementId": "v_misti"
+  },
+  {
+    "id": "i-work-at-home",
+    "subjectId": "ya",
+    "verbId": "pratsyuvaty",
+    "tense": "present",
+    "complementId": "vdoma"
+  },
+  {
+    "id": "i-work-today",
+    "subjectId": "ya",
+    "verbId": "pratsyuvaty",
+    "tense": "present",
+    "complementId": "sohodni"
+  },
+  {
+    "id": "he-works-a-lot",
+    "subjectId": "vin",
+    "verbId": "pratsyuvaty",
+    "tense": "present",
+    "complementId": "bahato"
+  },
+  {
+    "id": "i-speak-ukrainian",
+    "subjectId": "ya",
+    "verbId": "hovoryty",
+    "tense": "present",
+    "complementId": "ukrajinskoju"
+  },
+  {
+    "id": "i-speak-english",
+    "subjectId": "ya",
+    "verbId": "hovoryty",
+    "tense": "present",
+    "complementId": "anhlijskoju"
+  },
+  {
+    "id": "i-study-ukrainian",
+    "subjectId": "ya",
+    "verbId": "vyvchaty",
+    "tense": "present",
+    "complementId": "ukrajinsku_movu"
+  },
+  {
+    "id": "i-read-a-book",
+    "subjectId": "ya",
+    "verbId": "chytaty",
+    "tense": "present",
+    "complementId": "knyhu"
+  },
+  {
+    "id": "she-reads-a-book",
+    "subjectId": "vona",
+    "verbId": "chytaty",
+    "tense": "present",
+    "complementId": "knyhu"
+  },
+  {
+    "id": "i-listen-to-music",
+    "subjectId": "ya",
+    "verbId": "slukhaty",
+    "tense": "present",
+    "complementId": "muzyku"
+  },
+  {
+    "id": "i-buy-bread",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "present",
+    "complementId": "hlib"
+  },
+  {
+    "id": "i-buy-a-book",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "present",
+    "complementId": "knyhu"
+  },
+  {
+    "id": "i-order-pizza",
+    "subjectId": "ya",
+    "verbId": "zamovljaty",
+    "tense": "present",
+    "complementId": "pyccu"
+  },
+  {
+    "id": "i-order-salad",
+    "subjectId": "ya",
+    "verbId": "zamovljaty",
+    "tense": "present",
+    "complementId": "salat"
+  },
+  {
+    "id": "i-pay-today",
+    "subjectId": "ya",
+    "verbId": "platyty",
+    "tense": "present",
+    "complementId": "sohodni"
+  },
+  {
+    "id": "i-wait-for-friend",
+    "subjectId": "ya",
+    "verbId": "chekaty",
+    "tense": "present",
+    "complementId": "druha"
+  },
+  {
+    "id": "i-can-speak-ukrainian",
+    "subjectId": "ya",
+    "verbId": "mohty",
+    "tense": "present",
+    "complementId": "hovoryty"
+  },
+  {
+    "id": "i-can-help",
+    "subjectId": "ya",
+    "verbId": "mohty",
+    "tense": "present",
+    "complementId": null
+  },
+  {
+    "id": "i-have-phone",
+    "subjectId": "ya",
+    "verbId": "maty",
+    "tense": "present",
+    "complementId": "telefon"
+  },
+  {
+    "id": "i-love-mom",
+    "subjectId": "ya",
+    "verbId": "lyubyty",
+    "tense": "present",
+    "complementId": "mamu"
+  },
+  {
+    "id": "i-love-coffee",
+    "subjectId": "ya",
+    "verbId": "lyubyty",
+    "tense": "present",
+    "complementId": "kavu"
+  },
+  {
+    "id": "i-see-a-friend",
+    "subjectId": "ya",
+    "verbId": "bachyty",
+    "tense": "present",
+    "complementId": "druha"
+  },
+  {
+    "id": "i-cooked-yesterday",
+    "subjectId": "ya",
+    "verbId": "hotuvaty",
+    "tense": "past",
+    "complementId": "vchora"
+  },
+  {
+    "id": "i-will-wait-tomorrow",
+    "subjectId": "ya",
+    "verbId": "chekaty",
+    "tense": "future",
+    "complementId": "zavtra"
+  },
+  {
+    "id": "i-think-a-lot",
+    "subjectId": "ya",
+    "verbId": "dumaty",
+    "tense": "present",
+    "complementId": "bahato"
+  }
+]

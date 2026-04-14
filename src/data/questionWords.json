@@ -1,9 +1,9 @@
 [
-  { "ukrainian": "Хто", "transliteration": "Khto", "english": "Who" },
-  { "ukrainian": "Що", "transliteration": "Shcho", "english": "What" },
-  { "ukrainian": "Як", "transliteration": "Yak", "english": "How" },
-  { "ukrainian": "Коли", "transliteration": "Koly", "english": "When" },
+  { "ukrainian": "Хто", "transliteration": "Hto", "english": "Who" },
+  { "ukrainian": "Що", "transliteration": "Ščo", "english": "What" },
+  { "ukrainian": "Як", "transliteration": "Jak", "english": "How" },
+  { "ukrainian": "Коли", "transliteration": "Koli", "english": "When" },
   { "ukrainian": "Де", "transliteration": "De", "english": "Where" },
-  { "ukrainian": "Чому", "transliteration": "Chomu", "english": "Why" },
-  { "ukrainian": "Скільки", "transliteration": "Skilky", "english": "How many" }
+  { "ukrainian": "Чому", "transliteration": "Čomu", "english": "Why" },
+  { "ukrainian": "Скільки", "transliteration": "Skilki", "english": "How many" }
 ]

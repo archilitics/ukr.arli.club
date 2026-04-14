@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q-what-do-you-want",
+    "questionWordIndex": 1,
+    "subjectId": "ty",
+    "verbId": "khotity",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-does-he-want",
+    "questionWordIndex": 1,
+    "subjectId": "vin",
+    "verbId": "khotity",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-are-you-eating",
+    "questionWordIndex": 1,
+    "subjectId": "ty",
+    "verbId": "yisty",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-do-you-drink",
+    "questionWordIndex": 1,
+    "subjectId": "ty",
+    "verbId": "pyty",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-does-he-read",
+    "questionWordIndex": 1,
+    "subjectId": "vin",
+    "verbId": "chytaty",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-are-they-doing",
+    "questionWordIndex": 1,
+    "subjectId": "vony",
+    "verbId": "robyty",
+    "tense": "present"
+  },
+  {
+    "id": "q-where-do-you-live",
+    "questionWordIndex": 4,
+    "subjectId": "ty",
+    "verbId": "zhyty",
+    "tense": "present"
+  },
+  {
+    "id": "q-where-does-he-work",
+    "questionWordIndex": 4,
+    "subjectId": "vin",
+    "verbId": "pratsyuvaty",
+    "tense": "present"
+  },
+  {
+    "id": "q-where-are-you-going",
+    "questionWordIndex": 4,
+    "subjectId": "ty",
+    "verbId": "yty",
+    "tense": "present"
+  },
+  {
+    "id": "q-when-will-you-come",
+    "questionWordIndex": 3,
+    "subjectId": "ty",
+    "verbId": "yty",
+    "tense": "future"
+  },
+  {
+    "id": "q-when-do-we-eat",
+    "questionWordIndex": 3,
+    "subjectId": "my",
+    "verbId": "yisty",
+    "tense": "present"
+  },
+  {
+    "id": "q-who-is-waiting",
+    "questionWordIndex": 0,
+    "subjectId": "vin",
+    "verbId": "chekaty",
+    "tense": "present"
+  },
+  {
+    "id": "q-how-do-you-say",
+    "questionWordIndex": 2,
+    "subjectId": "ty",
+    "verbId": "kazaty",
+    "tense": "present"
+  },
+  {
+    "id": "q-how-many-do-you-have",
+    "questionWordIndex": 6,
+    "subjectId": "ty",
+    "verbId": "maty",
+    "tense": "present"
+  },
+  {
+    "id": "q-why-are-you-going",
+    "questionWordIndex": 5,
+    "subjectId": "ty",
+    "verbId": "yty",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-does-mom-cook",
+    "questionWordIndex": 1,
+    "subjectId": "vona",
+    "verbId": "hotuvaty",
+    "tense": "present"
+  },
+  {
+    "id": "q-where-did-you-go",
+    "questionWordIndex": 4,
+    "subjectId": "ty",
+    "verbId": "yty",
+    "tense": "past"
+  },
+  {
+    "id": "q-what-do-you-have",
+    "questionWordIndex": 1,
+    "subjectId": "ty",
+    "verbId": "maty",
+    "tense": "present"
+  },
+  {
+    "id": "q-what-do-you-love",
+    "questionWordIndex": 1,
+    "subjectId": "ty",
+    "verbId": "lyubyty",
+    "tense": "present"
+  },
+  {
+    "id": "q-who-pays",
+    "questionWordIndex": 0,
+    "subjectId": "vin",
+    "verbId": "platyty",
+    "tense": "present"
+  }
+]

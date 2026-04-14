@@ -1,0 +1,38 @@
+[
+  { "ukrainian": "сьогодні", "transliteration": "sohodni", "english": "today" },
+  { "ukrainian": "завтра", "transliteration": "zavtra", "english": "tomorrow" },
+  { "ukrainian": "вчора", "transliteration": "včora", "english": "yesterday" },
+  { "ukrainian": "зараз", "transliteration": "zaraz", "english": "now" },
+  {
+    "ukrainian": "потім",
+    "transliteration": "potim",
+    "english": "later / then"
+  },
+  { "ukrainian": "рано", "transliteration": "rano", "english": "early" },
+  { "ukrainian": "пізно", "transliteration": "pizno", "english": "late" },
+  { "ukrainian": "швидко", "transliteration": "švidko", "english": "quickly" },
+  {
+    "ukrainian": "повільно",
+    "transliteration": "povilno",
+    "english": "slowly"
+  },
+  { "ukrainian": "завжди", "transliteration": "zavždi", "english": "always" },
+  { "ukrainian": "ніколи", "transliteration": "nikoli", "english": "never" },
+  { "ukrainian": "часто", "transliteration": "često", "english": "often" },
+  { "ukrainian": "іноді", "transliteration": "inodi", "english": "sometimes" },
+  { "ukrainian": "секунда", "transliteration": "sekunda", "english": "second" },
+  { "ukrainian": "хвилина", "transliteration": "hvilina", "english": "minute" },
+  { "ukrainian": "година", "transliteration": "hodina", "english": "hour" },
+  { "ukrainian": "ранок", "transliteration": "ranok", "english": "morning" },
+  { "ukrainian": "день", "transliteration": "den", "english": "day" },
+  { "ukrainian": "вечір", "transliteration": "večir", "english": "evening" },
+  { "ukrainian": "ніч", "transliteration": "nič", "english": "night" },
+  { "ukrainian": "тиждень", "transliteration": "tižden", "english": "week" },
+  { "ukrainian": "місяць", "transliteration": "misjac", "english": "month" },
+  { "ukrainian": "рік", "transliteration": "rik", "english": "year" },
+  {
+    "ukrainian": "Котра година?",
+    "transliteration": "Kotra hodina?",
+    "english": "What time is it?"
+  }
+]

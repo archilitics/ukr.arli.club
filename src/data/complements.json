@@ -1,0 +1,345 @@
+[
+  {
+    "id": "kavu",
+    "ukrainian": "каву",
+    "transliteration": "kavu",
+    "english": "coffee",
+    "kind": "object"
+  },
+  {
+    "id": "chaj",
+    "ukrainian": "чай",
+    "transliteration": "čaj",
+    "english": "tea",
+    "kind": "object"
+  },
+  {
+    "id": "vodu",
+    "ukrainian": "воду",
+    "transliteration": "vodu",
+    "english": "water",
+    "kind": "object"
+  },
+  {
+    "id": "sik",
+    "ukrainian": "сік",
+    "transliteration": "sik",
+    "english": "juice",
+    "kind": "object"
+  },
+  {
+    "id": "pivo",
+    "ukrainian": "пиво",
+    "transliteration": "pivo",
+    "english": "beer",
+    "kind": "object"
+  },
+  {
+    "id": "vyno",
+    "ukrainian": "вино",
+    "transliteration": "vino",
+    "english": "wine",
+    "kind": "object"
+  },
+  {
+    "id": "hlib",
+    "ukrainian": "хліб",
+    "transliteration": "hlib",
+    "english": "bread",
+    "kind": "object"
+  },
+  {
+    "id": "sup",
+    "ukrainian": "суп",
+    "transliteration": "sup",
+    "english": "soup",
+    "kind": "object"
+  },
+  {
+    "id": "pyccu",
+    "ukrainian": "піцу",
+    "transliteration": "picu",
+    "english": "pizza",
+    "kind": "object"
+  },
+  {
+    "id": "salat",
+    "ukrainian": "салат",
+    "transliteration": "salat",
+    "english": "salad",
+    "kind": "object"
+  },
+  {
+    "id": "knyhu",
+    "ukrainian": "книгу",
+    "transliteration": "knihu",
+    "english": "a book",
+    "kind": "object"
+  },
+  {
+    "id": "muzyku",
+    "ukrainian": "музику",
+    "transliteration": "muziku",
+    "english": "music",
+    "kind": "object"
+  },
+  {
+    "id": "film",
+    "ukrainian": "фільм",
+    "transliteration": "film",
+    "english": "a movie",
+    "kind": "object"
+  },
+  {
+    "id": "telefon",
+    "ukrainian": "телефон",
+    "transliteration": "telefon",
+    "english": "phone",
+    "kind": "object"
+  },
+  {
+    "id": "druha",
+    "ukrainian": "друга",
+    "transliteration": "druha",
+    "english": "a friend",
+    "kind": "object"
+  },
+  {
+    "id": "mamu",
+    "ukrainian": "маму",
+    "transliteration": "mamu",
+    "english": "mom",
+    "kind": "object"
+  },
+  {
+    "id": "ukrajinsku_movu",
+    "ukrainian": "українську мову",
+    "transliteration": "ukrajinsku movu",
+    "english": "Ukrainian",
+    "kind": "object"
+  },
+  {
+    "id": "dodomu",
+    "ukrainian": "додому",
+    "transliteration": "dodomu",
+    "english": "home (to)",
+    "kind": "place_to"
+  },
+  {
+    "id": "na_robotu",
+    "ukrainian": "на роботу",
+    "transliteration": "na robotu",
+    "english": "to work",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_shkolu",
+    "ukrainian": "в школу",
+    "transliteration": "v školu",
+    "english": "to school",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_kavjarnyu",
+    "ukrainian": "в кав'ярню",
+    "transliteration": "v kavjarnju",
+    "english": "to the café",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_restoran",
+    "ukrainian": "в ресторан",
+    "transliteration": "v restoran",
+    "english": "to the restaurant",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_mahazyn",
+    "ukrainian": "в магазин",
+    "transliteration": "v mahazin",
+    "english": "to the store",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_park",
+    "ukrainian": "в парк",
+    "transliteration": "v park",
+    "english": "to the park",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_misto",
+    "ukrainian": "в місто",
+    "transliteration": "v misto",
+    "english": "to town",
+    "kind": "place_to"
+  },
+  {
+    "id": "tut",
+    "ukrainian": "тут",
+    "transliteration": "tut",
+    "english": "here",
+    "kind": "place_at"
+  },
+  {
+    "id": "tam",
+    "ukrainian": "там",
+    "transliteration": "tam",
+    "english": "there",
+    "kind": "place_at"
+  },
+  {
+    "id": "vdoma",
+    "ukrainian": "вдома",
+    "transliteration": "vdoma",
+    "english": "at home",
+    "kind": "place_at"
+  },
+  {
+    "id": "na_roboti",
+    "ukrainian": "на роботі",
+    "transliteration": "na roboti",
+    "english": "at work",
+    "kind": "place_at"
+  },
+  {
+    "id": "v_misti",
+    "ukrainian": "в місті",
+    "transliteration": "v misti",
+    "english": "in town",
+    "kind": "place_at"
+  },
+  {
+    "id": "dobre",
+    "ukrainian": "добре",
+    "transliteration": "dobre",
+    "english": "well",
+    "kind": "adverb"
+  },
+  {
+    "id": "pohano",
+    "ukrainian": "погано",
+    "transliteration": "pohano",
+    "english": "badly",
+    "kind": "adverb"
+  },
+  {
+    "id": "shvydko",
+    "ukrainian": "швидко",
+    "transliteration": "švidko",
+    "english": "quickly",
+    "kind": "adverb"
+  },
+  {
+    "id": "povilno",
+    "ukrainian": "повільно",
+    "transliteration": "povilno",
+    "english": "slowly",
+    "kind": "adverb"
+  },
+  {
+    "id": "bahato",
+    "ukrainian": "багато",
+    "transliteration": "bahato",
+    "english": "a lot",
+    "kind": "adverb"
+  },
+  {
+    "id": "malo",
+    "ukrainian": "мало",
+    "transliteration": "malo",
+    "english": "a little",
+    "kind": "adverb"
+  },
+  {
+    "id": "razom",
+    "ukrainian": "разом",
+    "transliteration": "razom",
+    "english": "together",
+    "kind": "adverb"
+  },
+  {
+    "id": "sohodni",
+    "ukrainian": "сьогодні",
+    "transliteration": "sohodni",
+    "english": "today",
+    "kind": "adverb"
+  },
+  {
+    "id": "zavtra",
+    "ukrainian": "завтра",
+    "transliteration": "zavtra",
+    "english": "tomorrow",
+    "kind": "adverb"
+  },
+  {
+    "id": "vchora",
+    "ukrainian": "вчора",
+    "transliteration": "včora",
+    "english": "yesterday",
+    "kind": "adverb"
+  },
+  {
+    "id": "zaraz",
+    "ukrainian": "зараз",
+    "transliteration": "zaraz",
+    "english": "now",
+    "kind": "adverb"
+  },
+  {
+    "id": "ukrajinskoju",
+    "ukrainian": "українською",
+    "transliteration": "ukrajinskoju",
+    "english": "in Ukrainian",
+    "kind": "adverb"
+  },
+  {
+    "id": "anhlijskoju",
+    "ukrainian": "англійською",
+    "transliteration": "anhlijskoju",
+    "english": "in English",
+    "kind": "adverb"
+  },
+  {
+    "id": "jisti",
+    "ukrainian": "їсти",
+    "transliteration": "jisti",
+    "english": "to eat",
+    "kind": "infinitive"
+  },
+  {
+    "id": "pyty",
+    "ukrainian": "пити",
+    "transliteration": "piti",
+    "english": "to drink",
+    "kind": "infinitive"
+  },
+  {
+    "id": "spaty",
+    "ukrainian": "спати",
+    "transliteration": "spati",
+    "english": "to sleep",
+    "kind": "infinitive"
+  },
+  {
+    "id": "hovoryty",
+    "ukrainian": "говорити",
+    "transliteration": "hovoriti",
+    "english": "to speak",
+    "kind": "infinitive"
+  },
+  {
+    "id": "pracjuvaty",
+    "ukrainian": "працювати",
+    "transliteration": "pracjuvati",
+    "english": "to work",
+    "kind": "infinitive"
+  },
+  {
+    "id": "vidpochyty",
+    "ukrainian": "відпочити",
+    "transliteration": "vidpočiti",
+    "english": "to rest",
+    "kind": "infinitive"
+  }
+]

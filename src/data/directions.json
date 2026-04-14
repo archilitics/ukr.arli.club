@@ -1,0 +1,80 @@
+[
+  { "ukrainian": "тут", "transliteration": "tut", "english": "here" },
+  { "ukrainian": "там", "transliteration": "tam", "english": "there" },
+  {
+    "ukrainian": "ліворуч",
+    "transliteration": "livoruč",
+    "english": "to the left"
+  },
+  {
+    "ukrainian": "праворуч",
+    "transliteration": "pravoruč",
+    "english": "to the right"
+  },
+  {
+    "ukrainian": "прямо",
+    "transliteration": "prjamo",
+    "english": "straight ahead"
+  },
+  { "ukrainian": "назад", "transliteration": "nazad", "english": "back" },
+  {
+    "ukrainian": "близько",
+    "transliteration": "blizko",
+    "english": "close / near"
+  },
+  { "ukrainian": "далеко", "transliteration": "daleko", "english": "far" },
+  { "ukrainian": "поруч", "transliteration": "poruč", "english": "next to" },
+  { "ukrainian": "між", "transliteration": "miž", "english": "between" },
+  { "ukrainian": "вгору", "transliteration": "vhoru", "english": "up" },
+  { "ukrainian": "вниз", "transliteration": "vniz", "english": "down" },
+  { "ukrainian": "вулиця", "transliteration": "vulicja", "english": "street" },
+  { "ukrainian": "площа", "transliteration": "plošča", "english": "square" },
+  {
+    "ukrainian": "ринок",
+    "transliteration": "rinok",
+    "english": "market / Rynok square"
+  },
+  { "ukrainian": "центр", "transliteration": "centr", "english": "centre" },
+  {
+    "ukrainian": "зупинка",
+    "transliteration": "zupinka",
+    "english": "bus/tram stop"
+  },
+  { "ukrainian": "автобус", "transliteration": "avtobus", "english": "bus" },
+  { "ukrainian": "трамвай", "transliteration": "tramvaj", "english": "tram" },
+  { "ukrainian": "таксі", "transliteration": "taksi", "english": "taxi" },
+  {
+    "ukrainian": "вокзал",
+    "transliteration": "vokzal",
+    "english": "train station"
+  },
+  {
+    "ukrainian": "аеропорт",
+    "transliteration": "aeroport",
+    "english": "airport"
+  },
+  { "ukrainian": "готель", "transliteration": "hotel", "english": "hotel" },
+  {
+    "ukrainian": "ресторан",
+    "transliteration": "restoran",
+    "english": "restaurant"
+  },
+  {
+    "ukrainian": "кав'ярня",
+    "transliteration": "kavjarnja",
+    "english": "café"
+  },
+  { "ukrainian": "аптека", "transliteration": "apteka", "english": "pharmacy" },
+  {
+    "ukrainian": "лікарня",
+    "transliteration": "likarnja",
+    "english": "hospital"
+  },
+  { "ukrainian": "банк", "transliteration": "bank", "english": "bank" },
+  { "ukrainian": "туалет", "transliteration": "tualet", "english": "toilet" },
+  {
+    "ukrainian": "Де...?",
+    "transliteration": "De...?",
+    "english": "Where is...?"
+  }
+]

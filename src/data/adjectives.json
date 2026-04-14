@@ -1,0 +1,96 @@
+[
+  { "ukrainian": "великий", "transliteration": "velikij", "english": "big" },
+  { "ukrainian": "малий", "transliteration": "malij", "english": "small" },
+  { "ukrainian": "добрий", "transliteration": "dobrij", "english": "good" },
+  { "ukrainian": "поганий", "transliteration": "pohanij", "english": "bad" },
+  {
+    "ukrainian": "гарний",
+    "transliteration": "harnij",
+    "english": "nice / pretty"
+  },
+  {
+    "ukrainian": "красивий",
+    "transliteration": "krasivij",
+    "english": "beautiful"
+  },
+  { "ukrainian": "новий", "transliteration": "novij", "english": "new" },
+  { "ukrainian": "старий", "transliteration": "starij", "english": "old" },
+  { "ukrainian": "молодий", "transliteration": "molodij", "english": "young" },
+  {
+    "ukrainian": "високий",
+    "transliteration": "visokij",
+    "english": "tall / high"
+  },
+  {
+    "ukrainian": "низький",
+    "transliteration": "nizkij",
+    "english": "short / low"
+  },
+  { "ukrainian": "довгий", "transliteration": "dovhij", "english": "long" },
+  {
+    "ukrainian": "короткий",
+    "transliteration": "korotkij",
+    "english": "short (length)"
+  },
+  { "ukrainian": "швидкий", "transliteration": "švidkij", "english": "fast" },
+  {
+    "ukrainian": "повільний",
+    "transliteration": "povilnij",
+    "english": "slow"
+  },
+  { "ukrainian": "гарячий", "transliteration": "harjačij", "english": "hot" },
+  { "ukrainian": "теплий", "transliteration": "teplij", "english": "warm" },
+  { "ukrainian": "холодний", "transliteration": "holodnij", "english": "cold" },
+  { "ukrainian": "смачний", "transliteration": "smačnij", "english": "tasty" },
+  {
+    "ukrainian": "солодкий",
+    "transliteration": "solodkij",
+    "english": "sweet"
+  },
+  {
+    "ukrainian": "дорогий",
+    "transliteration": "dorohij",
+    "english": "expensive / dear"
+  },
+  { "ukrainian": "дешевий", "transliteration": "deševij", "english": "cheap" },
+  {
+    "ukrainian": "легкий",
+    "transliteration": "lehkij",
+    "english": "easy / light"
+  },
+  {
+    "ukrainian": "важкий",
+    "transliteration": "važkij",
+    "english": "hard / heavy"
+  },
+  {
+    "ukrainian": "цікавий",
+    "transliteration": "cikavij",
+    "english": "interesting"
+  },
+  { "ukrainian": "смішний", "transliteration": "smišnij", "english": "funny" },
+  {
+    "ukrainian": "щасливий",
+    "transliteration": "ščaslivij",
+    "english": "happy"
+  },
+  { "ukrainian": "сумний", "transliteration": "sumnij", "english": "sad" },
+  {
+    "ukrainian": "втомлений",
+    "transliteration": "vtomlenij",
+    "english": "tired"
+  },
+  {
+    "ukrainian": "голодний",
+    "transliteration": "holodnij",
+    "english": "hungry"
+  },
+  {
+    "ukrainian": "здоровий",
+    "transliteration": "zdorovij",
+    "english": "healthy"
+  },
+  { "ukrainian": "хворий", "transliteration": "hvorij", "english": "sick" },
+  { "ukrainian": "чистий", "transliteration": "čistij", "english": "clean" },
+  { "ukrainian": "брудний", "transliteration": "brudnij", "english": "dirty" }
+]

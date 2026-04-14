@@ -1,17 +1,235 @@
 [
-  { "ukrainian": "Привіт", "transliteration": "Pryvit", "english": "Hello" },
-  { "ukrainian": "Добрий день", "transliteration": "Dobryi den", "english": "Good day" },
-  { "ukrainian": "Добрий ранок", "transliteration": "Dobryi ranok", "english": "Good morning" },
-  { "ukrainian": "Добрий вечір", "transliteration": "Dobryi vechir", "english": "Good evening" },
-  { "ukrainian": "До побачення", "transliteration": "Do pobachennya", "english": "Goodbye" },
-  { "ukrainian": "Дякую", "transliteration": "Dyakuyu", "english": "Thank you" },
-  { "ukrainian": "Будь ласка", "transliteration": "Bud laska", "english": "Please / You're welcome" },
+  {
+    "ukrainian": "Привіт",
+    "transliteration": "Privit",
+    "english": "Hi (informal)"
+  },
+  { "ukrainian": "Вітаю", "transliteration": "Vitaju", "english": "Hello" },
+  {
+    "ukrainian": "Доброго ранку",
+    "transliteration": "Dobroho ranku",
+    "english": "Good morning"
+  },
+  {
+    "ukrainian": "Доброго дня",
+    "transliteration": "Dobroho dnja",
+    "english": "Good day"
+  },
+  {
+    "ukrainian": "Доброго вечора",
+    "transliteration": "Dobroho večora",
+    "english": "Good evening"
+  },
+  {
+    "ukrainian": "На добраніч",
+    "transliteration": "Na dobranič",
+    "english": "Good night"
+  },
+  {
+    "ukrainian": "До побачення",
+    "transliteration": "Do pobačennja",
+    "english": "Goodbye"
+  },
+  { "ukrainian": "Бувай", "transliteration": "Buvaj", "english": "Bye" },
+  {
+    "ukrainian": "До зустрічі",
+    "transliteration": "Do zustriči",
+    "english": "See you later"
+  },
+  {
+    "ukrainian": "Як справи?",
+    "transliteration": "Jak spravi?",
+    "english": "How are you?"
+  },
+  {
+    "ukrainian": "Як ся маєш?",
+    "transliteration": "Jak sja maješ?",
+    "english": "How are you doing?"
+  },
+  {
+    "ukrainian": "Добре, дякую",
+    "transliteration": "Dobre, djakuju",
+    "english": "Fine, thank you"
+  },
+  { "ukrainian": "Файно", "transliteration": "Fajno", "english": "Great" },
+  {
+    "ukrainian": "Нормально",
+    "transliteration": "Normalno",
+    "english": "OK / normal"
+  },
+  {
+    "ukrainian": "Погано",
+    "transliteration": "Pohano",
+    "english": "Not good / bad"
+  },
+  { "ukrainian": "А ти?", "transliteration": "A ti?", "english": "And you?" },
+  {
+    "ukrainian": "Мене звати...",
+    "transliteration": "Mene zvati...",
+    "english": "My name is..."
+  },
+  {
+    "ukrainian": "Як тебе звати?",
+    "transliteration": "Jak tebe zvati?",
+    "english": "What's your name?"
+  },
+  {
+    "ukrainian": "Приємно познайомитися",
+    "transliteration": "Prijemno poznajomitisja",
+    "english": "Nice to meet you"
+  },
+  {
+    "ukrainian": "Я з...",
+    "transliteration": "Ja z...",
+    "english": "I'm from..."
+  },
+  {
+    "ukrainian": "Звідки ти?",
+    "transliteration": "Zvidki ti?",
+    "english": "Where are you from?"
+  },
+  {
+    "ukrainian": "Дякую",
+    "transliteration": "Djakuju",
+    "english": "Thank you"
+  },
+  {
+    "ukrainian": "Дуже дякую",
+    "transliteration": "Duže djakuju",
+    "english": "Thank you very much"
+  },
+  {
+    "ukrainian": "Прошу",
+    "transliteration": "Prošu",
+    "english": "Please / You're welcome"
+  },
+  {
+    "ukrainian": "Будь ласка",
+    "transliteration": "Bud laska",
+    "english": "Please (formal)"
+  },
+  {
+    "ukrainian": "Вибачте",
+    "transliteration": "Vibačte",
+    "english": "Sorry / Excuse me"
+  },
+  {
+    "ukrainian": "Перепрошую",
+    "transliteration": "Pereprošuju",
+    "english": "Pardon / Excuse me"
+  },
+  {
+    "ukrainian": "Нічого страшного",
+    "transliteration": "Ničoho strašnoho",
+    "english": "No worries"
+  },
   { "ukrainian": "Так", "transliteration": "Tak", "english": "Yes" },
   { "ukrainian": "Ні", "transliteration": "Ni", "english": "No" },
-  { "ukrainian": "Вибачте", "transliteration": "Vybachte", "english": "Excuse me / Sorry" },
-  { "ukrainian": "Як справи?", "transliteration": "Yak spravy?", "english": "How are you?" },
-  { "ukrainian": "Добре", "transliteration": "Dobre", "english": "Good / Fine" },
-  { "ukrainian": "Я не розумію", "transliteration": "Ya ne rozumiyu", "english": "I don't understand" },
-  { "ukrainian": "Скільки коштує?", "transliteration": "Skilky koshtuye?", "english": "How much does it cost?" },
-  { "ukrainian": "Допоможіть, будь ласка", "transliteration": "Dopomozhit, bud laska", "english": "Help me, please" }
+  { "ukrainian": "Можливо", "transliteration": "Možlivo", "english": "Maybe" },
+  {
+    "ukrainian": "Звичайно",
+    "transliteration": "Zvičajno",
+    "english": "Of course"
+  },
+  {
+    "ukrainian": "Не знаю",
+    "transliteration": "Ne znaju",
+    "english": "I don't know"
+  },
+  {
+    "ukrainian": "Я не розумію",
+    "transliteration": "Ja ne rozumiju",
+    "english": "I don't understand"
+  },
+  {
+    "ukrainian": "Повторіть, будь ласка",
+    "transliteration": "Povtorit, bud laska",
+    "english": "Please repeat"
+  },
+  {
+    "ukrainian": "Говоріть повільніше",
+    "transliteration": "Hovorit povilniše",
+    "english": "Please speak slower"
+  },
+  {
+    "ukrainian": "Ви говорите англійською?",
+    "transliteration": "Vi hovorite anhlijskoju?",
+    "english": "Do you speak English?"
+  },
+  {
+    "ukrainian": "Я трохи говорю українською",
+    "transliteration": "Ja trohi hovorju ukrajinskoju",
+    "english": "I speak a little Ukrainian"
+  },
+  {
+    "ukrainian": "Як це сказати?",
+    "transliteration": "Jak ce skazati?",
+    "english": "How do you say this?"
+  },
+  {
+    "ukrainian": "Що це?",
+    "transliteration": "Ščo ce?",
+    "english": "What is this?"
+  },
+  {
+    "ukrainian": "Скільки коштує?",
+    "transliteration": "Skilki koštuje?",
+    "english": "How much does it cost?"
+  },
+  {
+    "ukrainian": "Занадто дорого",
+    "transliteration": "Zanadto doroho",
+    "english": "Too expensive"
+  },
+  {
+    "ukrainian": "Я хочу це",
+    "transliteration": "Ja hoču ce",
+    "english": "I want this"
+  },
+  {
+    "ukrainian": "Рахунок, прошу",
+    "transliteration": "Rahunok, prošu",
+    "english": "The bill, please"
+  },
+  {
+    "ukrainian": "Смачного",
+    "transliteration": "Smačnoho",
+    "english": "Bon appétit"
+  },
+  { "ukrainian": "Будьмо!", "transliteration": "Budmo!", "english": "Cheers!" },
+  {
+    "ukrainian": "Де туалет?",
+    "transliteration": "De tualet?",
+    "english": "Where is the toilet?"
+  },
+  {
+    "ukrainian": "Я голодний",
+    "transliteration": "Ja holodnij",
+    "english": "I'm hungry (m)"
+  },
+  {
+    "ukrainian": "Я голодна",
+    "transliteration": "Ja holodna",
+    "english": "I'm hungry (f)"
+  },
+  {
+    "ukrainian": "Я хочу пити",
+    "transliteration": "Ja hoču piti",
+    "english": "I'm thirsty"
+  },
+  {
+    "ukrainian": "Я втомився",
+    "transliteration": "Ja vtomivsja",
+    "english": "I'm tired (m)"
+  },
+  {
+    "ukrainian": "Я втомилася",
+    "transliteration": "Ja vtomilasja",
+    "english": "I'm tired (f)"
+  },
+  {
+    "ukrainian": "Допоможіть, прошу",
+    "transliteration": "Dopomožit, prošu",
+    "english": "Help me, please"
+  }
 ]

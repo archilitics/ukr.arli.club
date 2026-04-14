@@ -20,6 +20,15 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontWeight: 500,
+          height: 36,
+          fontSize: "0.9rem",
+        },
+      },
+    },
+    MuiToggleButton: {
+      styleOverrides: {
+        root: {
+          minHeight: 44,
         },
       },
     },

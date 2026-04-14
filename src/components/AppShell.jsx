@@ -15,8 +15,8 @@ const AppShell = ({ activeTab, setActiveTab }) => (
       onChange={(_, newValue) => setActiveTab(newValue)}
       showLabels
     >
-      <BottomNavigationAction label="Builder" icon={<BuildIcon />} />
-      <BottomNavigationAction label="Questions" icon={<QuestionIcon />} />
+      <BottomNavigationAction label="Sentence" icon={<BuildIcon />} />
+      <BottomNavigationAction label="Question" icon={<QuestionIcon />} />
       <BottomNavigationAction label="Reference" icon={<BookIcon />} />
     </BottomNavigation>
   </Paper>

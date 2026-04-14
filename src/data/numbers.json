@@ -1,30 +1,82 @@
 [
-  { "ukrainian": "один", "transliteration": "odyn", "english": "1" },
+  { "ukrainian": "один", "transliteration": "odin", "english": "1" },
   { "ukrainian": "два", "transliteration": "dva", "english": "2" },
-  { "ukrainian": "три", "transliteration": "try", "english": "3" },
-  { "ukrainian": "чотири", "transliteration": "chotyry", "english": "4" },
-  { "ukrainian": "п'ять", "transliteration": "pyat", "english": "5" },
-  { "ukrainian": "шість", "transliteration": "shist", "english": "6" },
+  { "ukrainian": "три", "transliteration": "tri", "english": "3" },
+  { "ukrainian": "чотири", "transliteration": "čotiri", "english": "4" },
+  { "ukrainian": "п'ять", "transliteration": "pjat", "english": "5" },
+  { "ukrainian": "шість", "transliteration": "šist", "english": "6" },
   { "ukrainian": "сім", "transliteration": "sim", "english": "7" },
   { "ukrainian": "вісім", "transliteration": "visim", "english": "8" },
-  { "ukrainian": "дев'ять", "transliteration": "devyat", "english": "9" },
-  { "ukrainian": "десять", "transliteration": "desyat", "english": "10" },
-  { "ukrainian": "одинадцять", "transliteration": "odynadtsyat", "english": "11" },
-  { "ukrainian": "дванадцять", "transliteration": "dvanadtsyat", "english": "12" },
-  { "ukrainian": "тринадцять", "transliteration": "trynadtsyat", "english": "13" },
-  { "ukrainian": "чотирнадцять", "transliteration": "chotyrnadtsyat", "english": "14" },
-  { "ukrainian": "п'ятнадцять", "transliteration": "pyatnadtsyat", "english": "15" },
-  { "ukrainian": "шістнадцять", "transliteration": "shistnadtsyat", "english": "16" },
-  { "ukrainian": "сімнадцять", "transliteration": "simnadtsyat", "english": "17" },
-  { "ukrainian": "вісімнадцять", "transliteration": "visimnadtsyat", "english": "18" },
-  { "ukrainian": "дев'ятнадцять", "transliteration": "devyatnadtsyat", "english": "19" },
-  { "ukrainian": "двадцять", "transliteration": "dvadtsyat", "english": "20" },
-  { "ukrainian": "тридцять", "transliteration": "trydtsyat", "english": "30" },
+  { "ukrainian": "дев'ять", "transliteration": "devjat", "english": "9" },
+  { "ukrainian": "десять", "transliteration": "desjat", "english": "10" },
+  {
+    "ukrainian": "одинадцять",
+    "transliteration": "odinadcjat",
+    "english": "11"
+  },
+  {
+    "ukrainian": "дванадцять",
+    "transliteration": "dvanadcjat",
+    "english": "12"
+  },
+  {
+    "ukrainian": "тринадцять",
+    "transliteration": "trinadcjat",
+    "english": "13"
+  },
+  {
+    "ukrainian": "чотирнадцять",
+    "transliteration": "čotirnadcjat",
+    "english": "14"
+  },
+  {
+    "ukrainian": "п'ятнадцять",
+    "transliteration": "pjatnadcjat",
+    "english": "15"
+  },
+  {
+    "ukrainian": "шістнадцять",
+    "transliteration": "šistnadcjat",
+    "english": "16"
+  },
+  {
+    "ukrainian": "сімнадцять",
+    "transliteration": "simnadcjat",
+    "english": "17"
+  },
+  {
+    "ukrainian": "вісімнадцять",
+    "transliteration": "visimnadcjat",
+    "english": "18"
+  },
+  {
+    "ukrainian": "дев'ятнадцять",
+    "transliteration": "devjatnadcjat",
+    "english": "19"
+  },
+  { "ukrainian": "двадцять", "transliteration": "dvadcjat", "english": "20" },
+  { "ukrainian": "тридцять", "transliteration": "tridcjat", "english": "30" },
   { "ukrainian": "сорок", "transliteration": "sorok", "english": "40" },
-  { "ukrainian": "п'ятдесят", "transliteration": "pyatdesyat", "english": "50" },
-  { "ukrainian": "шістдесят", "transliteration": "shistdesyat", "english": "60" },
-  { "ukrainian": "сімдесят", "transliteration": "simdesyat", "english": "70" },
-  { "ukrainian": "вісімдесят", "transliteration": "visimdesyat", "english": "80" },
-  { "ukrainian": "дев'яносто", "transliteration": "devyanosto", "english": "90" },
+  {
+    "ukrainian": "п'ятдесят",
+    "transliteration": "pjatdesjat",
+    "english": "50"
+  },
+  {
+    "ukrainian": "шістдесят",
+    "transliteration": "šistdesjat",
+    "english": "60"
+  },
+  { "ukrainian": "сімдесят", "transliteration": "simdesjat", "english": "70" },
+  {
+    "ukrainian": "вісімдесят",
+    "transliteration": "visimdesjat",
+    "english": "80"
+  },
+  {
+    "ukrainian": "дев'яносто",
+    "transliteration": "devjanosto",
+    "english": "90"
+  },
   { "ukrainian": "сто", "transliteration": "sto", "english": "100" }
 ]

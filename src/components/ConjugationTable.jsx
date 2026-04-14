@@ -4,110 +4,142 @@ import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Fade from "@mui/material/Fade";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import SpeakerButton from "./SpeakerButton.jsx";
 import subjects from "../constants/subjects.js";
 import tenses from "../constants/tenses.js";
 
-const getCellValue = ({ verb, subjectId, tenseId }) => {
+const getCellValue = ({ verb, subjectId, tenseId, gender }) => {
   const tenseConjugations = verb.conjugations[tenseId];
   if (!tenseConjugations) {
-    return "—";
+    return "\u2014";
   }
   if (tenseId === "past") {
+    const genderSuffix = gender === "feminine" ? "fem" : "masc";
+    const pastKey = `${subjectId}_${genderSuffix}`;
     return (
-      tenseConjugations[`${subjectId}_masc`] ??
-      tenseConjugations[subjectId] ??
-      "—"
+      tenseConjugations[pastKey] ?? tenseConjugations[subjectId] ?? "\u2014"
     );
   }
-  return tenseConjugations[subjectId] ?? "—";
+  return tenseConjugations[subjectId] ?? "\u2014";
 };
 
-const ConjugationTable = ({ verb, activeSubjectId, activeTenseId }) => (
+const getSubjectGender = ({ subjectId, activeGender }) => {
+  const subject = subjects.find(({ id }) => id === subjectId);
+  if (["ya", "ty"].includes(subjectId)) {
+    return activeGender;
+  }
+  return subject?.gender ?? "masculine";
+};
+
+const ConjugationTable = ({
+  verb,
+  activeSubjectId,
+  activeTenseId,
+  activeGender,
+}) => (
   <Fade in>
     <Box sx={{ mt: 2 }}>
-      <Typography variant="subtitle2" sx={{ mb: 1, fontWeight: 600 }}>
-        {verb.infinitive} — {verb.english}
-      </Typography>
-      <TableContainer
-        component={Paper}
-        variant="outlined"
-        sx={{ overflowX: "auto" }}
-      >
-        <Table size="small">
-          <TableHead>
-            <TableRow>
-              <TableCell sx={{ fontWeight: 700, minWidth: 60 }} />
-              {tenses.map(({ id, label }) => (
-                <TableCell
-                  key={id}
-                  align="center"
-                  sx={{
-                    fontWeight: 700,
-                    minWidth: 90,
-                    bgcolor:
-                      id === activeTenseId ? "primary.main" : "transparent",
-                    color: id === activeTenseId ? "white" : "inherit",
-                  }}
-                >
-                  {label}
-                </TableCell>
-              ))}
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {subjects.map(({ id: subjectId, label: subjectLabel }) => (
-              <TableRow
-                key={subjectId}
-                sx={{
-                  bgcolor:
-                    subjectId === activeSubjectId
-                      ? "action.selected"
-                      : "transparent",
-                }}
-              >
-                <TableCell sx={{ fontWeight: 600 }}>{subjectLabel}</TableCell>
-                {tenses.map(({ id: tenseId }) => {
-                  const cellValue = getCellValue({ verb, subjectId, tenseId });
-                  const isActiveCell =
-                    subjectId === activeSubjectId && tenseId === activeTenseId;
-                  return (
+      <Accordion defaultExpanded={false} variant="outlined" disableGutters>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
+            {verb.infinitive} {"\u2014"} {verb.english}
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails sx={{ p: 0 }}>
+          <TableContainer sx={{ overflowX: "auto" }}>
+            <Table size="small">
+              <TableHead>
+                <TableRow>
+                  <TableCell sx={{ fontWeight: 700, minWidth: 60 }} />
+                  {tenses.map(({ id, label }) => (
                     <TableCell
-                      key={tenseId}
+                      key={id}
                       align="center"
                       sx={{
-                        fontWeight: isActiveCell ? 700 : 400,
-                        color: isActiveCell ? "primary.main" : "inherit",
+                        fontWeight: 700,
+                        minWidth: 90,
+                        bgcolor:
+                          id === activeTenseId ? "primary.main" : "transparent",
+                        color: id === activeTenseId ? "white" : "inherit",
                       }}
                     >
-                      <Box
-                        sx={{
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          gap: 0.5,
-                        }}
-                      >
-                        {cellValue}
-                        {isActiveCell && cellValue !== "—" && (
-                          <SpeakerButton
-                            text={`${subjectLabel} ${cellValue}`}
-                            size="small"
-                          />
-                        )}
-                      </Box>
+                      {label}
                     </TableCell>
+                  ))}
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {subjects.map(({ id: subjectId, label: subjectLabel }) => {
+                  const subjectGender = getSubjectGender({
+                    subjectId,
+                    activeGender,
+                  });
+                  return (
+                    <TableRow
+                      key={subjectId}
+                      sx={{
+                        bgcolor:
+                          subjectId === activeSubjectId
+                            ? "action.selected"
+                            : "transparent",
+                      }}
+                    >
+                      <TableCell sx={{ fontWeight: 600 }}>
+                        {subjectLabel}
+                      </TableCell>
+                      {tenses.map(({ id: tenseId }) => {
+                        const cellValue = getCellValue({
+                          verb,
+                          subjectId,
+                          tenseId,
+                          gender: subjectGender,
+                        });
+                        const isActiveCell =
+                          subjectId === activeSubjectId &&
+                          tenseId === activeTenseId;
+                        return (
+                          <TableCell
+                            key={tenseId}
+                            align="center"
+                            sx={{
+                              fontWeight: isActiveCell ? 700 : 400,
+                              color: isActiveCell ? "primary.main" : "inherit",
+                            }}
+                          >
+                            <Box
+                              sx={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 0.5,
+                              }}
+                            >
+                              {cellValue}
+                              {isActiveCell && cellValue !== "\u2014" && (
+                                <SpeakerButton
+                                  text={`${subjectLabel} ${cellValue}`}
+                                  size="small"
+                                />
+                              )}
+                            </Box>
+                          </TableCell>
+                        );
+                      })}
+                    </TableRow>
                   );
                 })}
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </AccordionDetails>
+      </Accordion>
     </Box>
   </Fade>
 );

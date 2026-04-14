@@ -1,0 +1,22 @@
+[
+  { "ukrainian": "січень", "transliteration": "sičen", "english": "January" },
+  { "ukrainian": "лютий", "transliteration": "ljutij", "english": "February" },
+  { "ukrainian": "березень", "transliteration": "berezen", "english": "March" },
+  { "ukrainian": "квітень", "transliteration": "kviten", "english": "April" },
+  { "ukrainian": "травень", "transliteration": "traven", "english": "May" },
+  { "ukrainian": "червень", "transliteration": "červen", "english": "June" },
+  { "ukrainian": "липень", "transliteration": "lipen", "english": "July" },
+  { "ukrainian": "серпень", "transliteration": "serpen", "english": "August" },
+  {
+    "ukrainian": "вересень",
+    "transliteration": "veresen",
+    "english": "September"
+  },
+  { "ukrainian": "жовтень", "transliteration": "žovten", "english": "October" },
+  {
+    "ukrainian": "листопад",
+    "transliteration": "listopad",
+    "english": "November"
+  },
+  { "ukrainian": "грудень", "transliteration": "hruden", "english": "December" }
+]

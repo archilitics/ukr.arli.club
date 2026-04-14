@@ -4,7 +4,7 @@
     "infinitive": "бути",
     "transliteration": "buty",
     "english": "to be",
-    "category": "everyday",
+    "category": "being",
     "conjugations": {
       "present": {
         "ya": "є",
@@ -80,7 +80,7 @@
     "infinitive": "їсти",
     "transliteration": "yisty",
     "english": "to eat",
-    "category": "everyday",
+    "category": "food",
     "conjugations": {
       "present": {
         "ya": "їм",
@@ -118,7 +118,7 @@
     "infinitive": "пити",
     "transliteration": "pyty",
     "english": "to drink",
-    "category": "everyday",
+    "category": "food",
     "conjugations": {
       "present": {
         "ya": "п'ю",
@@ -346,7 +346,7 @@
     "infinitive": "мати",
     "transliteration": "maty",
     "english": "to have",
-    "category": "everyday",
+    "category": "being",
     "conjugations": {
       "present": {
         "ya": "маю",
@@ -384,7 +384,7 @@
     "infinitive": "жити",
     "transliteration": "zhyty",
     "english": "to live",
-    "category": "everyday",
+    "category": "home",
     "conjugations": {
       "present": {
         "ya": "живу",
@@ -536,7 +536,7 @@
     "infinitive": "спати",
     "transliteration": "spaty",
     "english": "to sleep",
-    "category": "everyday",
+    "category": "home",
     "conjugations": {
       "present": {
         "ya": "сплю",
@@ -572,7 +572,7 @@
   {
     "id": "lyubyty",
     "infinitive": "любити",
-    "transliteration": "lyubyty",
+    "transliteration": "ljubiti",
     "english": "to love",
     "category": "feeling",
     "conjugations": {
@@ -604,6 +604,652 @@
         "my": "любитимемо",
         "vy": "любитимете",
         "vony": "любитимуть"
+      }
+    }
+  },
+  {
+    "id": "kupuvaty",
+    "infinitive": "купувати",
+    "transliteration": "kupuvati",
+    "english": "to buy",
+    "category": "commerce",
+    "conjugations": {
+      "present": {
+        "ya": "купую",
+        "ty": "купуєш",
+        "vin": "купує",
+        "vona": "купує",
+        "my": "купуємо",
+        "vy": "купуєте",
+        "vony": "купують"
+      },
+      "past": {
+        "ya_masc": "купував",
+        "ya_fem": "купувала",
+        "ty_masc": "купував",
+        "ty_fem": "купувала",
+        "vin": "купував",
+        "vona": "купувала",
+        "my": "купували",
+        "vy": "купували",
+        "vony": "купували"
+      },
+      "future": {
+        "ya": "купуватиму",
+        "ty": "купуватимеш",
+        "vin": "купуватиме",
+        "vona": "купуватиме",
+        "my": "купуватимемо",
+        "vy": "купуватимете",
+        "vony": "купуватимуть"
+      }
+    }
+  },
+  {
+    "id": "platyty",
+    "infinitive": "платити",
+    "transliteration": "platiti",
+    "english": "to pay",
+    "category": "commerce",
+    "conjugations": {
+      "present": {
+        "ya": "плачу",
+        "ty": "платиш",
+        "vin": "платить",
+        "vona": "платить",
+        "my": "платимо",
+        "vy": "платите",
+        "vony": "платять"
+      },
+      "past": {
+        "ya_masc": "платив",
+        "ya_fem": "платила",
+        "ty_masc": "платив",
+        "ty_fem": "платила",
+        "vin": "платив",
+        "vona": "платила",
+        "my": "платили",
+        "vy": "платили",
+        "vony": "платили"
+      },
+      "future": {
+        "ya": "платитиму",
+        "ty": "платитимеш",
+        "vin": "платитиме",
+        "vona": "платитиме",
+        "my": "платитимемо",
+        "vy": "платитимете",
+        "vony": "платитимуть"
+      }
+    }
+  },
+  {
+    "id": "zamovljaty",
+    "infinitive": "замовляти",
+    "transliteration": "zamovljati",
+    "english": "to order",
+    "category": "commerce",
+    "conjugations": {
+      "present": {
+        "ya": "замовляю",
+        "ty": "замовляєш",
+        "vin": "замовляє",
+        "vona": "замовляє",
+        "my": "замовляємо",
+        "vy": "замовляєте",
+        "vony": "замовляють"
+      },
+      "past": {
+        "ya_masc": "замовляв",
+        "ya_fem": "замовляла",
+        "ty_masc": "замовляв",
+        "ty_fem": "замовляла",
+        "vin": "замовляв",
+        "vona": "замовляла",
+        "my": "замовляли",
+        "vy": "замовляли",
+        "vony": "замовляли"
+      },
+      "future": {
+        "ya": "замовлятиму",
+        "ty": "замовлятимеш",
+        "vin": "замовлятиме",
+        "vona": "замовлятиме",
+        "my": "замовлятимемо",
+        "vy": "замовлятимете",
+        "vony": "замовлятимуть"
+      }
+    }
+  },
+  {
+    "id": "kazaty",
+    "infinitive": "казати",
+    "transliteration": "kazati",
+    "english": "to say",
+    "category": "communication",
+    "conjugations": {
+      "present": {
+        "ya": "кажу",
+        "ty": "кажеш",
+        "vin": "каже",
+        "vona": "каже",
+        "my": "кажемо",
+        "vy": "кажете",
+        "vony": "кажуть"
+      },
+      "past": {
+        "ya_masc": "казав",
+        "ya_fem": "казала",
+        "ty_masc": "казав",
+        "ty_fem": "казала",
+        "vin": "казав",
+        "vona": "казала",
+        "my": "казали",
+        "vy": "казали",
+        "vony": "казали"
+      },
+      "future": {
+        "ya": "казатиму",
+        "ty": "казатимеш",
+        "vin": "казатиме",
+        "vona": "казатиме",
+        "my": "казатимемо",
+        "vy": "казатимете",
+        "vony": "казатимуть"
+      }
+    }
+  },
+  {
+    "id": "pytaty",
+    "infinitive": "питати",
+    "transliteration": "pitati",
+    "english": "to ask",
+    "category": "communication",
+    "conjugations": {
+      "present": {
+        "ya": "питаю",
+        "ty": "питаєш",
+        "vin": "питає",
+        "vona": "питає",
+        "my": "питаємо",
+        "vy": "питаєте",
+        "vony": "питають"
+      },
+      "past": {
+        "ya_masc": "питав",
+        "ya_fem": "питала",
+        "ty_masc": "питав",
+        "ty_fem": "питала",
+        "vin": "питав",
+        "vona": "питала",
+        "my": "питали",
+        "vy": "питали",
+        "vony": "питали"
+      },
+      "future": {
+        "ya": "питатиму",
+        "ty": "питатимеш",
+        "vin": "питатиме",
+        "vona": "питатиме",
+        "my": "питатимемо",
+        "vy": "питатимете",
+        "vony": "питатимуть"
+      }
+    }
+  },
+  {
+    "id": "slukhaty",
+    "infinitive": "слухати",
+    "transliteration": "sluhati",
+    "english": "to listen",
+    "category": "perception",
+    "conjugations": {
+      "present": {
+        "ya": "слухаю",
+        "ty": "слухаєш",
+        "vin": "слухає",
+        "vona": "слухає",
+        "my": "слухаємо",
+        "vy": "слухаєте",
+        "vony": "слухають"
+      },
+      "past": {
+        "ya_masc": "слухав",
+        "ya_fem": "слухала",
+        "ty_masc": "слухав",
+        "ty_fem": "слухала",
+        "vin": "слухав",
+        "vona": "слухала",
+        "my": "слухали",
+        "vy": "слухали",
+        "vony": "слухали"
+      },
+      "future": {
+        "ya": "слухатиму",
+        "ty": "слухатимеш",
+        "vin": "слухатиме",
+        "vona": "слухатиме",
+        "my": "слухатимемо",
+        "vy": "слухатимете",
+        "vony": "слухатимуть"
+      }
+    }
+  },
+  {
+    "id": "rozumity",
+    "infinitive": "розуміти",
+    "transliteration": "rozumiti",
+    "english": "to understand",
+    "category": "perception",
+    "conjugations": {
+      "present": {
+        "ya": "розумію",
+        "ty": "розумієш",
+        "vin": "розуміє",
+        "vona": "розуміє",
+        "my": "розуміємо",
+        "vy": "розумієте",
+        "vony": "розуміють"
+      },
+      "past": {
+        "ya_masc": "розумів",
+        "ya_fem": "розуміла",
+        "ty_masc": "розумів",
+        "ty_fem": "розуміла",
+        "vin": "розумів",
+        "vona": "розуміла",
+        "my": "розуміли",
+        "vy": "розуміли",
+        "vony": "розуміли"
+      },
+      "future": {
+        "ya": "розумітиму",
+        "ty": "розумітимеш",
+        "vin": "розумітиме",
+        "vona": "розумітиме",
+        "my": "розумітимемо",
+        "vy": "розумітимете",
+        "vony": "розумітимуть"
+      }
+    }
+  },
+  {
+    "id": "dumaty",
+    "infinitive": "думати",
+    "transliteration": "dumati",
+    "english": "to think",
+    "category": "perception",
+    "conjugations": {
+      "present": {
+        "ya": "думаю",
+        "ty": "думаєш",
+        "vin": "думає",
+        "vona": "думає",
+        "my": "думаємо",
+        "vy": "думаєте",
+        "vony": "думають"
+      },
+      "past": {
+        "ya_masc": "думав",
+        "ya_fem": "думала",
+        "ty_masc": "думав",
+        "ty_fem": "думала",
+        "vin": "думав",
+        "vona": "думала",
+        "my": "думали",
+        "vy": "думали",
+        "vony": "думали"
+      },
+      "future": {
+        "ya": "думатиму",
+        "ty": "думатимеш",
+        "vin": "думатиме",
+        "vona": "думатиме",
+        "my": "думатимемо",
+        "vy": "думатимете",
+        "vony": "думатимуть"
+      }
+    }
+  },
+  {
+    "id": "dopomahaty",
+    "infinitive": "допомагати",
+    "transliteration": "dopomahati",
+    "english": "to help",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "допомагаю",
+        "ty": "допомагаєш",
+        "vin": "допомагає",
+        "vona": "допомагає",
+        "my": "допомагаємо",
+        "vy": "допомагаєте",
+        "vony": "допомагають"
+      },
+      "past": {
+        "ya_masc": "допомагав",
+        "ya_fem": "допомагала",
+        "ty_masc": "допомагав",
+        "ty_fem": "допомагала",
+        "vin": "допомагав",
+        "vona": "допомагала",
+        "my": "допомагали",
+        "vy": "допомагали",
+        "vony": "допомагали"
+      },
+      "future": {
+        "ya": "допомагатиму",
+        "ty": "допомагатимеш",
+        "vin": "допомагатиме",
+        "vona": "допомагатиме",
+        "my": "допомагатимемо",
+        "vy": "допомагатимете",
+        "vony": "допомагатимуть"
+      }
+    }
+  },
+  {
+    "id": "davaty",
+    "infinitive": "давати",
+    "transliteration": "davati",
+    "english": "to give",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "даю",
+        "ty": "даєш",
+        "vin": "дає",
+        "vona": "дає",
+        "my": "даємо",
+        "vy": "даєте",
+        "vony": "дають"
+      },
+      "past": {
+        "ya_masc": "давав",
+        "ya_fem": "давала",
+        "ty_masc": "давав",
+        "ty_fem": "давала",
+        "vin": "давав",
+        "vona": "давала",
+        "my": "давали",
+        "vy": "давали",
+        "vony": "давали"
+      },
+      "future": {
+        "ya": "даватиму",
+        "ty": "даватимеш",
+        "vin": "даватиме",
+        "vona": "даватиме",
+        "my": "даватимемо",
+        "vy": "даватимете",
+        "vony": "даватимуть"
+      }
+    }
+  },
+  {
+    "id": "braty",
+    "infinitive": "брати",
+    "transliteration": "brati",
+    "english": "to take",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "беру",
+        "ty": "береш",
+        "vin": "бере",
+        "vona": "бере",
+        "my": "беремо",
+        "vy": "берете",
+        "vony": "беруть"
+      },
+      "past": {
+        "ya_masc": "брав",
+        "ya_fem": "брала",
+        "ty_masc": "брав",
+        "ty_fem": "брала",
+        "vin": "брав",
+        "vona": "брала",
+        "my": "брали",
+        "vy": "брали",
+        "vony": "брали"
+      },
+      "future": {
+        "ya": "братиму",
+        "ty": "братимеш",
+        "vin": "братиме",
+        "vona": "братиме",
+        "my": "братимемо",
+        "vy": "братимете",
+        "vony": "братимуть"
+      }
+    }
+  },
+  {
+    "id": "jikhaty",
+    "infinitive": "їхати",
+    "transliteration": "jihati",
+    "english": "to travel",
+    "category": "movement",
+    "conjugations": {
+      "present": {
+        "ya": "їду",
+        "ty": "їдеш",
+        "vin": "їде",
+        "vona": "їде",
+        "my": "їдемо",
+        "vy": "їдете",
+        "vony": "їдуть"
+      },
+      "past": {
+        "ya_masc": "їхав",
+        "ya_fem": "їхала",
+        "ty_masc": "їхав",
+        "ty_fem": "їхала",
+        "vin": "їхав",
+        "vona": "їхала",
+        "my": "їхали",
+        "vy": "їхали",
+        "vony": "їхали"
+      },
+      "future": {
+        "ya": "їхатиму",
+        "ty": "їхатимеш",
+        "vin": "їхатиме",
+        "vona": "їхатиме",
+        "my": "їхатимемо",
+        "vy": "їхатимете",
+        "vony": "їхатимуть"
+      }
+    }
+  },
+  {
+    "id": "meshkaty",
+    "infinitive": "мешкати",
+    "transliteration": "meškati",
+    "english": "to reside",
+    "category": "home",
+    "conjugations": {
+      "present": {
+        "ya": "мешкаю",
+        "ty": "мешкаєш",
+        "vin": "мешкає",
+        "vona": "мешкає",
+        "my": "мешкаємо",
+        "vy": "мешкаєте",
+        "vony": "мешкають"
+      },
+      "past": {
+        "ya_masc": "мешкав",
+        "ya_fem": "мешкала",
+        "ty_masc": "мешкав",
+        "ty_fem": "мешкала",
+        "vin": "мешкав",
+        "vona": "мешкала",
+        "my": "мешкали",
+        "vy": "мешкали",
+        "vony": "мешкали"
+      },
+      "future": {
+        "ya": "мешкатиму",
+        "ty": "мешкатимеш",
+        "vin": "мешкатиме",
+        "vona": "мешкатиме",
+        "my": "мешкатимемо",
+        "vy": "мешкатимете",
+        "vony": "мешкатимуть"
+      }
+    }
+  },
+  {
+    "id": "hotuvaty",
+    "infinitive": "готувати",
+    "transliteration": "hotuvati",
+    "english": "to cook",
+    "category": "food",
+    "conjugations": {
+      "present": {
+        "ya": "готую",
+        "ty": "готуєш",
+        "vin": "готує",
+        "vona": "готує",
+        "my": "готуємо",
+        "vy": "готуєте",
+        "vony": "готують"
+      },
+      "past": {
+        "ya_masc": "готував",
+        "ya_fem": "готувала",
+        "ty_masc": "готував",
+        "ty_fem": "готувала",
+        "vin": "готував",
+        "vona": "готувала",
+        "my": "готували",
+        "vy": "готували",
+        "vony": "готували"
+      },
+      "future": {
+        "ya": "готуватиму",
+        "ty": "готуватимеш",
+        "vin": "готуватиме",
+        "vona": "готуватиме",
+        "my": "готуватимемо",
+        "vy": "готуватимете",
+        "vony": "готуватимуть"
+      }
+    }
+  },
+  {
+    "id": "mohty",
+    "infinitive": "могти",
+    "transliteration": "mohti",
+    "english": "can / to be able",
+    "category": "feeling",
+    "conjugations": {
+      "present": {
+        "ya": "можу",
+        "ty": "можеш",
+        "vin": "може",
+        "vona": "може",
+        "my": "можемо",
+        "vy": "можете",
+        "vony": "можуть"
+      },
+      "past": {
+        "ya_masc": "міг",
+        "ya_fem": "могла",
+        "ty_masc": "міг",
+        "ty_fem": "могла",
+        "vin": "міг",
+        "vona": "могла",
+        "my": "могли",
+        "vy": "могли",
+        "vony": "могли"
+      },
+      "future": {
+        "ya": "могтиму",
+        "ty": "могтимеш",
+        "vin": "могтиме",
+        "vona": "могтиме",
+        "my": "могтимемо",
+        "vy": "могтимете",
+        "vony": "могтимуть"
+      }
+    }
+  },
+  {
+    "id": "chekaty",
+    "infinitive": "чекати",
+    "transliteration": "čekati",
+    "english": "to wait",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "чекаю",
+        "ty": "чекаєш",
+        "vin": "чекає",
+        "vona": "чекає",
+        "my": "чекаємо",
+        "vy": "чекаєте",
+        "vony": "чекають"
+      },
+      "past": {
+        "ya_masc": "чекав",
+        "ya_fem": "чекала",
+        "ty_masc": "чекав",
+        "ty_fem": "чекала",
+        "vin": "чекав",
+        "vona": "чекала",
+        "my": "чекали",
+        "vy": "чекали",
+        "vony": "чекали"
+      },
+      "future": {
+        "ya": "чекатиму",
+        "ty": "чекатимеш",
+        "vin": "чекатиме",
+        "vona": "чекатиме",
+        "my": "чекатимемо",
+        "vy": "чекатимете",
+        "vony": "чекатимуть"
+      }
+    }
+  },
+  {
+    "id": "vyvchaty",
+    "infinitive": "вивчати",
+    "transliteration": "vivčati",
+    "english": "to study",
+    "category": "doing",
+    "conjugations": {
+      "present": {
+        "ya": "вивчаю",
+        "ty": "вивчаєш",
+        "vin": "вивчає",
+        "vona": "вивчає",
+        "my": "вивчаємо",
+        "vy": "вивчаєте",
+        "vony": "вивчають"
+      },
+      "past": {
+        "ya_masc": "вивчав",
+        "ya_fem": "вивчала",
+        "ty_masc": "вивчав",
+        "ty_fem": "вивчала",
+        "vin": "вивчав",
+        "vona": "вивчала",
+        "my": "вивчали",
+        "vy": "вивчали",
+        "vony": "вивчали"
+      },
+      "future": {
+        "ya": "вивчатиму",
+        "ty": "вивчатимеш",
+        "vin": "вивчатиме",
+        "vona": "вивчатиме",
+        "my": "вивчатимемо",
+        "vy": "вивчатимете",
+        "vony": "вивчатимуть"
       }
     }
   }

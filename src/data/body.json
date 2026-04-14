@@ -1,0 +1,35 @@
+[
+  { "ukrainian": "тіло", "transliteration": "tilo", "english": "body" },
+  { "ukrainian": "голова", "transliteration": "holova", "english": "head" },
+  { "ukrainian": "обличчя", "transliteration": "obličča", "english": "face" },
+  { "ukrainian": "око", "transliteration": "oko", "english": "eye" },
+  { "ukrainian": "очі", "transliteration": "oči", "english": "eyes" },
+  { "ukrainian": "ніс", "transliteration": "nis", "english": "nose" },
+  { "ukrainian": "рот", "transliteration": "rot", "english": "mouth" },
+  { "ukrainian": "вухо", "transliteration": "vuho", "english": "ear" },
+  { "ukrainian": "зуб", "transliteration": "zub", "english": "tooth" },
+  { "ukrainian": "волосся", "transliteration": "volossja", "english": "hair" },
+  { "ukrainian": "шия", "transliteration": "šija", "english": "neck" },
+  { "ukrainian": "плече", "transliteration": "pleče", "english": "shoulder" },
+  { "ukrainian": "рука", "transliteration": "ruka", "english": "hand / arm" },
+  { "ukrainian": "палець", "transliteration": "palec", "english": "finger" },
+  { "ukrainian": "нога", "transliteration": "noha", "english": "leg / foot" },
+  { "ukrainian": "спина", "transliteration": "spina", "english": "back" },
+  { "ukrainian": "живіт", "transliteration": "živit", "english": "stomach" },
+  { "ukrainian": "серце", "transliteration": "serce", "english": "heart" },
+  {
+    "ukrainian": "Болить голова",
+    "transliteration": "Bolit holova",
+    "english": "My head hurts"
+  },
+  {
+    "ukrainian": "Я хворий",
+    "transliteration": "Ja hvorij",
+    "english": "I'm sick (m)"
+  },
+  {
+    "ukrainian": "Я хвора",
+    "transliteration": "Ja hvora",
+    "english": "I'm sick (f)"
+  }
+]

@@ -1,14 +1,30 @@
 [
-  { "ukrainian": "червоний", "transliteration": "chervonyi", "english": "red" },
-  { "ukrainian": "синій", "transliteration": "syniy", "english": "blue" },
-  { "ukrainian": "зелений", "transliteration": "zelenyi", "english": "green" },
-  { "ukrainian": "жовтий", "transliteration": "zhovtyi", "english": "yellow" },
-  { "ukrainian": "білий", "transliteration": "bilyi", "english": "white" },
-  { "ukrainian": "чорний", "transliteration": "chornyi", "english": "black" },
-  { "ukrainian": "сірий", "transliteration": "siryi", "english": "grey" },
-  { "ukrainian": "коричневий", "transliteration": "korychnievyi", "english": "brown" },
-  { "ukrainian": "рожевий", "transliteration": "rozhevyi", "english": "pink" },
-  { "ukrainian": "помаранчевий", "transliteration": "pomaranchevyi", "english": "orange" },
-  { "ukrainian": "фіолетовий", "transliteration": "fioletovyi", "english": "purple" },
-  { "ukrainian": "блакитний", "transliteration": "blakytnyi", "english": "light blue" }
+  { "ukrainian": "червоний", "transliteration": "červonij", "english": "red" },
+  { "ukrainian": "синій", "transliteration": "sinij", "english": "blue" },
+  { "ukrainian": "зелений", "transliteration": "zelenij", "english": "green" },
+  { "ukrainian": "жовтий", "transliteration": "žovtij", "english": "yellow" },
+  { "ukrainian": "білий", "transliteration": "bilij", "english": "white" },
+  { "ukrainian": "чорний", "transliteration": "čornij", "english": "black" },
+  { "ukrainian": "сірий", "transliteration": "sirij", "english": "grey" },
+  {
+    "ukrainian": "коричневий",
+    "transliteration": "koričnevij",
+    "english": "brown"
+  },
+  { "ukrainian": "рожевий", "transliteration": "roževij", "english": "pink" },
+  {
+    "ukrainian": "помаранчевий",
+    "transliteration": "pomarančevij",
+    "english": "orange"
+  },
+  {
+    "ukrainian": "фіолетовий",
+    "transliteration": "fioletovij",
+    "english": "purple"
+  },
+  {
+    "ukrainian": "блакитний",
+    "transliteration": "blakitnij",
+    "english": "light blue"
+  }
 ]
