@@ -32,6 +32,10 @@ const verbComplementKinds = {
   chekaty: ["object", "place_at", "adverb"],
   vyvchaty: ["object", "place_at", "adverb"],
   chytaty: ["object", "place_at", "adverb"],
+  vidpochyvaty: ["place_at", "adverb"],
+  huljaty: ["place_at", "adverb"],
+  prykhodyty: ["place_to", "adverb"],
+  spivaty: ["object", "place_at", "adverb"],
 };
 
 export default verbComplementKinds;

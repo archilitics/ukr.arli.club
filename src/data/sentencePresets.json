@@ -511,6 +511,83 @@
     "complementId": "do_druha"
   },
   {
+    "id": "i-rest-at-home",
+    "subjectId": "ya",
+    "verbId": "vidpochyvaty",
+    "tense": "present",
+    "complementId": "vdoma"
+  },
+  {
+    "id": "i-will-rest-tomorrow",
+    "subjectId": "ya",
+    "verbId": "vidpochyvaty",
+    "tense": "future",
+    "complementId": "zavtra"
+  },
+  {
+    "id": "we-rest-together",
+    "subjectId": "my",
+    "verbId": "vidpochyvaty",
+    "tense": "present",
+    "complementId": "razom"
+  },
+  {
+    "id": "i-walk-in-park",
+    "subjectId": "ya",
+    "verbId": "huljaty",
+    "tense": "present",
+    "complementId": "v_parku"
+  },
+  {
+    "id": "we-walk-together",
+    "subjectId": "my",
+    "verbId": "huljaty",
+    "tense": "present",
+    "complementId": "razom"
+  },
+  {
+    "id": "i-come-home",
+    "subjectId": "ya",
+    "verbId": "prykhodyty",
+    "tense": "present",
+    "complementId": "dodomu"
+  },
+  {
+    "id": "he-comes-today",
+    "subjectId": "vin",
+    "verbId": "prykhodyty",
+    "tense": "present",
+    "complementId": "sohodni"
+  },
+  {
+    "id": "i-sing-well",
+    "subjectId": "ya",
+    "verbId": "spivaty",
+    "tense": "present",
+    "complementId": "dobre"
+  },
+  {
+    "id": "she-sings-at-home",
+    "subjectId": "vona",
+    "verbId": "spivaty",
+    "tense": "present",
+    "complementId": "vdoma"
+  },
+  {
+    "id": "i-drink-at-cafe",
+    "subjectId": "ya",
+    "verbId": "pyty",
+    "tense": "present",
+    "complementId": "v_kavjarni"
+  },
+  {
+    "id": "we-eat-at-restaurant",
+    "subjectId": "my",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "v_restorani"
+  },
+  {
     "id": "i-pay-today",
     "subjectId": "ya",
     "verbId": "platyty",

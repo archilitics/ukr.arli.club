@@ -8,6 +8,7 @@ import IconButton from "@mui/material/IconButton";
 import Chip from "@mui/material/Chip";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
+import ShuffleIcon from "@mui/icons-material/Shuffle";
 import ChipSelector from "../ChipSelector.jsx";
 import TenseToggle from "../TenseToggle.jsx";
 import GenderToggle from "../GenderToggle.jsx";
@@ -23,6 +24,21 @@ import { expandQuestionPreset } from "../../utils/expandPreset.js";
 
 const expandedQuestionPresets = questionPresets.map((preset) =>
   expandQuestionPreset({ preset }),
+);
+
+const STARTER_QUESTION_IDS = [
+  "q-what-do-you-want",
+  "q-where-do-you-live",
+  "q-where-are-you-going",
+  "q-when-will-you-come",
+  "q-how-do-you-say",
+  "q-what-do-you-have",
+  "q-why-are-you-going",
+  "q-who-is-waiting",
+];
+
+const starterQuestionPresets = expandedQuestionPresets.filter(({ id }) =>
+  STARTER_QUESTION_IDS.includes(id),
 );
 
 const verbCategories = [...new Set(verbs.map(({ category }) => category))];
@@ -92,6 +108,16 @@ const QuestionsTab = () => {
     setSelectedCategory(null);
     setSelectedVerbId(preset.verbId);
     setSelectedTense(preset.tense);
+  };
+
+  const resetAll = () => {
+    setSearchQuery("");
+    setSelectedQuestionWordIndex(null);
+    setSelectedSubjectId(null);
+    setSelectedGender("masculine");
+    setSelectedCategory(null);
+    setSelectedVerbId(null);
+    setSelectedTense("present");
   };
 
   const selectedVerb = useMemo(
@@ -191,6 +217,60 @@ const QuestionsTab = () => {
           },
         }}
       />
+
+      {!trimmedQuery &&
+        selectedQuestionWordIndex === null &&
+        selectedSubjectId === null && (
+          <Box sx={{ mb: 2 }}>
+            <Typography
+              variant="caption"
+              sx={{
+                mb: 0.5,
+                display: "block",
+                color: "text.secondary",
+                fontWeight: 600,
+                textTransform: "uppercase",
+                letterSpacing: 0.5,
+              }}
+            >
+              Starter Questions
+            </Typography>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, pb: 0.5 }}>
+              {starterQuestionPresets.map((preset) => (
+                <Chip
+                  key={preset.id}
+                  label={preset.english}
+                  onClick={() => applyPreset({ preset })}
+                  color="primary"
+                  variant="filled"
+                  sx={{
+                    fontWeight: 500,
+                    color: "white",
+                    "&:hover": { backgroundColor: "primary.dark" },
+                  }}
+                />
+              ))}
+              <Chip
+                icon={<ShuffleIcon sx={{ color: "text.primary !important" }} />}
+                label="Random"
+                onClick={() => {
+                  const randomPreset =
+                    expandedQuestionPresets[
+                      Math.floor(Math.random() * expandedQuestionPresets.length)
+                    ];
+                  applyPreset({ preset: randomPreset });
+                }}
+                variant="filled"
+                sx={{
+                  fontWeight: 600,
+                  backgroundColor: "secondary.main",
+                  "& .MuiChip-label": { color: "text.primary" },
+                  "&:hover": { backgroundColor: "secondary.dark" },
+                }}
+              />
+            </Box>
+          </Box>
+        )}
 
       {trimmedQuery && matchingPresets.length > 0 && (
         <Box sx={{ mb: 2 }}>
@@ -344,10 +424,33 @@ const QuestionsTab = () => {
       )}
 
       {ukrainianQuestion && (
-        <ResultCard
-          ukrainianText={ukrainianQuestion}
-          englishText={englishQuestion}
-        />
+        <>
+          <ResultCard
+            ukrainianText={ukrainianQuestion}
+            englishText={englishQuestion}
+          />
+          <Box sx={{ display: "flex", gap: 1, mb: 2 }}>
+            <Chip
+              label="Start over"
+              onClick={resetAll}
+              variant="outlined"
+              size="small"
+            />
+            <Chip
+              icon={<ShuffleIcon fontSize="small" />}
+              label="Try another"
+              onClick={() => {
+                const randomPreset =
+                  expandedQuestionPresets[
+                    Math.floor(Math.random() * expandedQuestionPresets.length)
+                  ];
+                applyPreset({ preset: randomPreset });
+              }}
+              variant="outlined"
+              size="small"
+            />
+          </Box>
+        </>
       )}
     </Box>
   );

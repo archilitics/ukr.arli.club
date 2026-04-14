@@ -504,6 +504,34 @@
     "kind": "place_at"
   },
   {
+    "id": "v_parku",
+    "ukrainian": "в парку",
+    "transliteration": "v parku",
+    "english": "in the park",
+    "kind": "place_at"
+  },
+  {
+    "id": "v_kavjarni",
+    "ukrainian": "в кав'ярні",
+    "transliteration": "v kavjarni",
+    "english": "at the café",
+    "kind": "place_at"
+  },
+  {
+    "id": "v_restorani",
+    "ukrainian": "в ресторані",
+    "transliteration": "v restorani",
+    "english": "at the restaurant",
+    "kind": "place_at"
+  },
+  {
+    "id": "v_shkoli",
+    "ukrainian": "в школі",
+    "transliteration": "v školi",
+    "english": "at school",
+    "kind": "place_at"
+  },
+  {
     "id": "dobre",
     "ukrainian": "добре",
     "transliteration": "dobre",

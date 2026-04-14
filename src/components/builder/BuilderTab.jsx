@@ -8,6 +8,7 @@ import IconButton from "@mui/material/IconButton";
 import Chip from "@mui/material/Chip";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
+import ShuffleIcon from "@mui/icons-material/Shuffle";
 import ChipSelector from "../ChipSelector.jsx";
 import TenseToggle from "../TenseToggle.jsx";
 import GenderToggle from "../GenderToggle.jsx";
@@ -25,6 +26,22 @@ import verbComplementKinds from "../../utils/verbComplementKinds.js";
 
 const expandedSentencePresets = sentencePresets.map((preset) =>
   expandSentencePreset({ preset }),
+);
+
+const STARTER_PRESET_IDS = [
+  "i-want-coffee",
+  "i-want-to-eat",
+  "i-go-home",
+  "i-speak-ukrainian",
+  "i-have-phone",
+  "i-love-coffee",
+  "i-work-at-home",
+  "we-go-to-park",
+  "i-rest-at-home",
+];
+
+const starterSentencePresets = expandedSentencePresets.filter(({ id }) =>
+  STARTER_PRESET_IDS.includes(id),
 );
 
 const verbCategories = [...new Set(verbs.map(({ category }) => category))];
@@ -110,6 +127,16 @@ const BuilderTab = () => {
     setSelectedVerbId(preset.verbId);
     setSelectedTense(preset.tense);
     setSelectedComplementId(preset.complementId ?? null);
+  };
+
+  const resetAll = () => {
+    setSearchQuery("");
+    setSelectedSubjectId(null);
+    setSelectedGender("masculine");
+    setSelectedCategory(null);
+    setSelectedVerbId(null);
+    setSelectedTense("present");
+    setSelectedComplementId(null);
   };
 
   const selectedVerb = useMemo(
@@ -211,6 +238,59 @@ const BuilderTab = () => {
           },
         }}
       />
+
+      {!trimmedQuery && !selectedSubjectId && !selectedVerbId && (
+        <Box sx={{ mb: 2 }}>
+          <Typography
+            variant="caption"
+            sx={{
+              mb: 0.5,
+              display: "block",
+              color: "text.secondary",
+              fontWeight: 600,
+              textTransform: "uppercase",
+              letterSpacing: 0.5,
+            }}
+          >
+            Starter Sentences
+          </Typography>
+          <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, pb: 0.5 }}>
+            {starterSentencePresets.map((preset) => (
+              <Chip
+                key={preset.id}
+                label={preset.english}
+                onClick={() => applyPreset({ preset })}
+                color="primary"
+                variant="filled"
+                sx={{
+                  fontWeight: 500,
+                  color: "white",
+                  "&:hover": { backgroundColor: "primary.dark" },
+                }}
+              />
+            ))}
+            <Chip
+              icon={<ShuffleIcon sx={{ color: "white !important" }} />}
+              label="Random"
+              onClick={() => {
+                const randomPreset =
+                  expandedSentencePresets[
+                    Math.floor(Math.random() * expandedSentencePresets.length)
+                  ];
+                applyPreset({ preset: randomPreset });
+              }}
+              variant="filled"
+              sx={{
+                fontWeight: 600,
+                color: "white",
+                backgroundColor: "secondary.main",
+                "& .MuiChip-label": { color: "text.primary" },
+                "&:hover": { backgroundColor: "secondary.dark" },
+              }}
+            />
+          </Box>
+        </Box>
+      )}
 
       {trimmedQuery && matchingPresets.length > 0 && (
         <Box sx={{ mb: 2 }}>
@@ -365,10 +445,33 @@ const BuilderTab = () => {
       )}
 
       {ukrainianSentence && (
-        <ResultCard
-          ukrainianText={ukrainianSentence}
-          englishText={englishSentence}
-        />
+        <>
+          <ResultCard
+            ukrainianText={ukrainianSentence}
+            englishText={englishSentence}
+          />
+          <Box sx={{ display: "flex", gap: 1, mb: 2 }}>
+            <Chip
+              label="Start over"
+              onClick={resetAll}
+              variant="outlined"
+              size="small"
+            />
+            <Chip
+              icon={<ShuffleIcon fontSize="small" />}
+              label="Try another"
+              onClick={() => {
+                const randomPreset =
+                  expandedSentencePresets[
+                    Math.floor(Math.random() * expandedSentencePresets.length)
+                  ];
+                applyPreset({ preset: randomPreset });
+              }}
+              variant="outlined"
+              size="small"
+            />
+          </Box>
+        </>
       )}
 
       <Collapse in={selectedVerb !== null}>
