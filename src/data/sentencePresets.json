@@ -287,6 +287,230 @@
     "complementId": "salat"
   },
   {
+    "id": "i-want-ice-cream",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "morozyvo"
+  },
+  {
+    "id": "i-eat-ice-cream",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "morozyvo"
+  },
+  {
+    "id": "i-love-ice-cream",
+    "subjectId": "ya",
+    "verbId": "lyubyty",
+    "tense": "present",
+    "complementId": "morozyvo"
+  },
+  {
+    "id": "i-want-cake",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "tort"
+  },
+  {
+    "id": "i-want-chocolate",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "shokolad"
+  },
+  {
+    "id": "i-eat-apple",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "yabluko"
+  },
+  {
+    "id": "i-drink-milk",
+    "subjectId": "ya",
+    "verbId": "pyty",
+    "tense": "present",
+    "complementId": "moloko"
+  },
+  {
+    "id": "i-eat-borscht",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "borshch"
+  },
+  {
+    "id": "i-cook-borscht",
+    "subjectId": "ya",
+    "verbId": "hotuvaty",
+    "tense": "present",
+    "complementId": "borshch"
+  },
+  {
+    "id": "we-eat-varenyky",
+    "subjectId": "my",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "vareniki"
+  },
+  {
+    "id": "i-go-to-cinema",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_kino"
+  },
+  {
+    "id": "i-will-buy-gift",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "future",
+    "complementId": "podarunok"
+  },
+  {
+    "id": "i-bought-flowers",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "past",
+    "complementId": "kvity"
+  },
+  {
+    "id": "i-love-sister",
+    "subjectId": "ya",
+    "verbId": "lyubyty",
+    "tense": "present",
+    "complementId": "sestru"
+  },
+  {
+    "id": "i-love-brother",
+    "subjectId": "ya",
+    "verbId": "lyubyty",
+    "tense": "present",
+    "complementId": "brata"
+  },
+  {
+    "id": "i-want-dinner",
+    "subjectId": "ya",
+    "verbId": "khotity",
+    "tense": "present",
+    "complementId": "vecheryu"
+  },
+  {
+    "id": "i-cook-dinner",
+    "subjectId": "ya",
+    "verbId": "hotuvaty",
+    "tense": "present",
+    "complementId": "vecheryu"
+  },
+  {
+    "id": "i-cook-breakfast",
+    "subjectId": "ya",
+    "verbId": "hotuvaty",
+    "tense": "present",
+    "complementId": "snidanok"
+  },
+  {
+    "id": "we-eat-lunch",
+    "subjectId": "my",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "obid"
+  },
+  {
+    "id": "she-cooks-dinner",
+    "subjectId": "vona",
+    "verbId": "hotuvaty",
+    "tense": "present",
+    "complementId": "vecheryu"
+  },
+  {
+    "id": "i-have-dog",
+    "subjectId": "ya",
+    "verbId": "maty",
+    "tense": "present",
+    "complementId": "sobaku"
+  },
+  {
+    "id": "i-have-cat",
+    "subjectId": "ya",
+    "verbId": "maty",
+    "tense": "present",
+    "complementId": "kota"
+  },
+  {
+    "id": "i-have-money",
+    "subjectId": "ya",
+    "verbId": "maty",
+    "tense": "present",
+    "complementId": "hroshi"
+  },
+  {
+    "id": "i-have-time",
+    "subjectId": "ya",
+    "verbId": "maty",
+    "tense": "present",
+    "complementId": "chas"
+  },
+  {
+    "id": "i-buy-vegetables",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "present",
+    "complementId": "ovochi"
+  },
+  {
+    "id": "i-buy-fruits",
+    "subjectId": "ya",
+    "verbId": "kupuvaty",
+    "tense": "present",
+    "complementId": "frukty"
+  },
+  {
+    "id": "i-eat-fruits",
+    "subjectId": "ya",
+    "verbId": "yisty",
+    "tense": "present",
+    "complementId": "frukty"
+  },
+  {
+    "id": "i-go-to-market",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "na_rynok"
+  },
+  {
+    "id": "i-go-to-pharmacy",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "v_aptekku"
+  },
+  {
+    "id": "i-go-to-beach",
+    "subjectId": "ya",
+    "verbId": "jikhaty",
+    "tense": "present",
+    "complementId": "na_pljazh"
+  },
+  {
+    "id": "i-go-to-doctor",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "present",
+    "complementId": "do_likarya"
+  },
+  {
+    "id": "i-will-go-to-friend",
+    "subjectId": "ya",
+    "verbId": "yty",
+    "tense": "future",
+    "complementId": "do_druha"
+  },
+  {
     "id": "i-pay-today",
     "subjectId": "ya",
     "verbId": "platyty",

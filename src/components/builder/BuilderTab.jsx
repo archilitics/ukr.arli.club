@@ -82,7 +82,6 @@ const BuilderTab = () => {
     [acceptedComplementKinds, trimmedQuery],
   );
 
-
   const matchingPresets = useMemo(() => {
     if (!trimmedQuery) {
       return [];
@@ -91,6 +90,18 @@ const BuilderTab = () => {
       matchesQuery({ query: trimmedQuery, haystack: [english, ukrainian] }),
     );
   }, [trimmedQuery]);
+
+  const anyComplementMatches = useMemo(
+    () =>
+      trimmedQuery &&
+      complements.some(({ ukrainian, english, transliteration }) =>
+        matchesQuery({
+          query: trimmedQuery,
+          haystack: [ukrainian, english, transliteration],
+        }),
+      ),
+    [trimmedQuery],
+  );
 
   const applyPreset = ({ preset }) => {
     setSelectedSubjectId(preset.subjectId);
@@ -241,6 +252,28 @@ const BuilderTab = () => {
           </Box>
         </Box>
       )}
+
+      {trimmedQuery &&
+        matchingPresets.length === 0 &&
+        filteredVerbs.length === 0 &&
+        !anyComplementMatches && (
+          <Box
+            sx={{
+              mb: 2,
+              p: 2,
+              bgcolor: "action.hover",
+              borderRadius: 1,
+              textAlign: "center",
+            }}
+          >
+            <Typography variant="body2" sx={{ color: "text.secondary", mb: 1 }}>
+              No matches for &ldquo;{trimmedQuery}&rdquo;
+            </Typography>
+            <Typography variant="caption" sx={{ color: "text.disabled" }}>
+              Try: coffee, eat, home, want, buy, ice cream, music, friend
+            </Typography>
+          </Box>
+        )}
 
       <ChipSelector
         label="Subject"

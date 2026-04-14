@@ -233,6 +233,28 @@ const QuestionsTab = () => {
         </Box>
       )}
 
+      {trimmedQuery &&
+        matchingPresets.length === 0 &&
+        filteredQuestionWords.length === 0 &&
+        filteredVerbs.length === 0 && (
+          <Box
+            sx={{
+              mb: 2,
+              p: 2,
+              bgcolor: "action.hover",
+              borderRadius: 1,
+              textAlign: "center",
+            }}
+          >
+            <Typography variant="body2" sx={{ color: "text.secondary", mb: 1 }}>
+              No matches for &ldquo;{trimmedQuery}&rdquo;
+            </Typography>
+            <Typography variant="caption" sx={{ color: "text.disabled" }}>
+              Try: what, where, when, why, eat, live, work, go
+            </Typography>
+          </Box>
+        )}
+
       <ChipSelector
         label={`Question Word${trimmedQuery ? ` (${filteredQuestionWords.length} match)` : ""}`}
         items={filteredQuestionWords.map(({ index, ukrainian, english }) => ({

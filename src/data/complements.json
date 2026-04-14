@@ -70,6 +70,244 @@
     "kind": "object"
   },
   {
+    "id": "morozyvo",
+    "ukrainian": "морозиво",
+    "transliteration": "morozivo",
+    "english": "ice cream",
+    "kind": "object"
+  },
+  {
+    "id": "tort",
+    "ukrainian": "торт",
+    "transliteration": "tort",
+    "english": "cake",
+    "kind": "object"
+  },
+  {
+    "id": "shokolad",
+    "ukrainian": "шоколад",
+    "transliteration": "šokolad",
+    "english": "chocolate",
+    "kind": "object"
+  },
+  {
+    "id": "yabluko",
+    "ukrainian": "яблуко",
+    "transliteration": "jabluko",
+    "english": "apple",
+    "kind": "object"
+  },
+  {
+    "id": "banan",
+    "ukrainian": "банан",
+    "transliteration": "banan",
+    "english": "banana",
+    "kind": "object"
+  },
+  {
+    "id": "yajce",
+    "ukrainian": "яйце",
+    "transliteration": "jajce",
+    "english": "egg",
+    "kind": "object"
+  },
+  {
+    "id": "syr",
+    "ukrainian": "сир",
+    "transliteration": "sir",
+    "english": "cheese",
+    "kind": "object"
+  },
+  {
+    "id": "mjaso",
+    "ukrainian": "м'ясо",
+    "transliteration": "mjaso",
+    "english": "meat",
+    "kind": "object"
+  },
+  {
+    "id": "rybu",
+    "ukrainian": "рибу",
+    "transliteration": "ribu",
+    "english": "fish",
+    "kind": "object"
+  },
+  {
+    "id": "kurku",
+    "ukrainian": "курку",
+    "transliteration": "kurku",
+    "english": "chicken",
+    "kind": "object"
+  },
+  {
+    "id": "kartoplyu",
+    "ukrainian": "картоплю",
+    "transliteration": "kartoplju",
+    "english": "potato",
+    "kind": "object"
+  },
+  {
+    "id": "moloko",
+    "ukrainian": "молоко",
+    "transliteration": "moloko",
+    "english": "milk",
+    "kind": "object"
+  },
+  {
+    "id": "borshch",
+    "ukrainian": "борщ",
+    "transliteration": "boršč",
+    "english": "borscht",
+    "kind": "object"
+  },
+  {
+    "id": "vareniki",
+    "ukrainian": "вареники",
+    "transliteration": "vareniki",
+    "english": "varenyky",
+    "kind": "object"
+  },
+  {
+    "id": "podarunok",
+    "ukrainian": "подарунок",
+    "transliteration": "podarunok",
+    "english": "a gift",
+    "kind": "object"
+  },
+  {
+    "id": "kvity",
+    "ukrainian": "квіти",
+    "transliteration": "kviti",
+    "english": "flowers",
+    "kind": "object"
+  },
+  {
+    "id": "mashynu",
+    "ukrainian": "машину",
+    "transliteration": "mašinu",
+    "english": "a car",
+    "kind": "object"
+  },
+  {
+    "id": "sestru",
+    "ukrainian": "сестру",
+    "transliteration": "sestru",
+    "english": "sister",
+    "kind": "object"
+  },
+  {
+    "id": "brata",
+    "ukrainian": "брата",
+    "transliteration": "brata",
+    "english": "brother",
+    "kind": "object"
+  },
+  {
+    "id": "snidanok",
+    "ukrainian": "сніданок",
+    "transliteration": "snidanok",
+    "english": "breakfast",
+    "kind": "object"
+  },
+  {
+    "id": "obid",
+    "ukrainian": "обід",
+    "transliteration": "obid",
+    "english": "lunch",
+    "kind": "object"
+  },
+  {
+    "id": "vecheryu",
+    "ukrainian": "вечерю",
+    "transliteration": "večerju",
+    "english": "dinner",
+    "kind": "object"
+  },
+  {
+    "id": "hroshi",
+    "ukrainian": "гроші",
+    "transliteration": "hroši",
+    "english": "money",
+    "kind": "object"
+  },
+  {
+    "id": "odyah",
+    "ukrainian": "одяг",
+    "transliteration": "odjah",
+    "english": "clothes",
+    "kind": "object"
+  },
+  {
+    "id": "chas",
+    "ukrainian": "час",
+    "transliteration": "čas",
+    "english": "time",
+    "kind": "object"
+  },
+  {
+    "id": "dim",
+    "ukrainian": "дім",
+    "transliteration": "dim",
+    "english": "a house",
+    "kind": "object"
+  },
+  {
+    "id": "sobaku",
+    "ukrainian": "собаку",
+    "transliteration": "sobaku",
+    "english": "a dog",
+    "kind": "object"
+  },
+  {
+    "id": "kota",
+    "ukrainian": "кота",
+    "transliteration": "kota",
+    "english": "a cat",
+    "kind": "object"
+  },
+  {
+    "id": "apelsyn",
+    "ukrainian": "апельсин",
+    "transliteration": "apelsin",
+    "english": "orange",
+    "kind": "object"
+  },
+  {
+    "id": "pomidor",
+    "ukrainian": "помідор",
+    "transliteration": "pomidor",
+    "english": "tomato",
+    "kind": "object"
+  },
+  {
+    "id": "ris",
+    "ukrainian": "рис",
+    "transliteration": "ris",
+    "english": "rice",
+    "kind": "object"
+  },
+  {
+    "id": "makaroni",
+    "ukrainian": "макарони",
+    "transliteration": "makaroni",
+    "english": "pasta",
+    "kind": "object"
+  },
+  {
+    "id": "ovochi",
+    "ukrainian": "овочі",
+    "transliteration": "ovoči",
+    "english": "vegetables",
+    "kind": "object"
+  },
+  {
+    "id": "frukty",
+    "ukrainian": "фрукти",
+    "transliteration": "frukti",
+    "english": "fruits",
+    "kind": "object"
+  },
+  {
     "id": "knyhu",
     "ukrainian": "книгу",
     "transliteration": "knihu",
@@ -165,6 +403,62 @@
     "ukrainian": "в парк",
     "transliteration": "v park",
     "english": "to the park",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_kino",
+    "ukrainian": "в кіно",
+    "transliteration": "v kino",
+    "english": "to the cinema",
+    "kind": "place_to"
+  },
+  {
+    "id": "na_rynok",
+    "ukrainian": "на ринок",
+    "transliteration": "na rinok",
+    "english": "to the market",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_aptekku",
+    "ukrainian": "в аптеку",
+    "transliteration": "v apteku",
+    "english": "to the pharmacy",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_bank",
+    "ukrainian": "в банк",
+    "transliteration": "v bank",
+    "english": "to the bank",
+    "kind": "place_to"
+  },
+  {
+    "id": "v_hotel",
+    "ukrainian": "в готель",
+    "transliteration": "v hotel",
+    "english": "to the hotel",
+    "kind": "place_to"
+  },
+  {
+    "id": "na_pljazh",
+    "ukrainian": "на пляж",
+    "transliteration": "na pljaž",
+    "english": "to the beach",
+    "kind": "place_to"
+  },
+  {
+    "id": "do_likarya",
+    "ukrainian": "до лікаря",
+    "transliteration": "do likarja",
+    "english": "to the doctor",
+    "kind": "place_to"
+  },
+  {
+    "id": "do_druha",
+    "ukrainian": "до друга",
+    "transliteration": "do druha",
+    "english": "to a friend",
     "kind": "place_to"
   },
   {
