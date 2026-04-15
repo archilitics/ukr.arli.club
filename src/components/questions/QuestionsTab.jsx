@@ -102,6 +102,7 @@ const QuestionsTab = () => {
   }, [trimmedQuery]);
 
   const applyPreset = ({ preset }) => {
+    setSearchQuery("");
     setSelectedQuestionWordIndex(preset.questionWordIndex);
     setSelectedSubjectId(preset.subjectId);
     setSelectedGender(preset.gender);

@@ -121,6 +121,7 @@ const BuilderTab = () => {
   );
 
   const applyPreset = ({ preset }) => {
+    setSearchQuery("");
     setSelectedSubjectId(preset.subjectId);
     setSelectedGender(preset.gender);
     setSelectedCategory(null);

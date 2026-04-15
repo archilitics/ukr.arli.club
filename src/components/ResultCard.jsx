@@ -17,7 +17,7 @@ const ResultCard = ({ ukrainianText, englishText }) => (
           >
             {ukrainianText}
           </Typography>
-          <SpeakerButton text={ukrainianText} />
+          <SpeakerButton text={ukrainianText} size="medium" />
         </Box>
         <Typography
           variant="body2"
